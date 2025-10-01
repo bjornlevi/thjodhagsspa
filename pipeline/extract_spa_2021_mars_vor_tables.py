@@ -9,15 +9,14 @@ PREFERRED_PAGE  = 25
 STRATEGY        = "text_loose"
 CANDIDATE_INDEX = 0
 
-EXPECTED_YEARS = [2020, 2021, 2022, 2023, 2024, 2025, 2026]
+EXPECTED_YEARS  = [2020, 2021, 2022, 2023, 2024, 2025, 2026]
 
 TABLE_SETTINGS = {
-    "lines_loose": dict(vertical_strategy="lines", horizontal_strategy="lines",
-                        snap_tolerance=3, join_tolerance=3, edge_min_length=3),
     "text_loose": dict(vertical_strategy="text", horizontal_strategy="text",
-                       text_tolerance=3, snap_tolerance=3, join_tolerance=3),
+                       snap_tolerance=3, join_tolerance=3, text_tolerance=3),
 }
 
+# ========== CANON ==========
 CANON = [
     ("einkaneysla", "Einkaneysla", "Private final consumption"),
     ("samneysla", "Samneysla", "Government final consumption"),
@@ -42,150 +41,169 @@ CANON = [
     ("oliuverd", "Olíuverð", "Oil price"),
     ("atvinnuleysi", "Atvinnuleysi (% af vinnuafli)", "Unemployment rate (% of labour force)"),
 ]
+
 KEY_TO_IS = {k: isl for k, isl, en in CANON}
 KEY_TO_EN = {k: en  for k, isl, en in CANON}
 
-def strip_accents(s): return ''.join(c for c in unicodedata.normalize("NFKD", str(s)) if not unicodedata.combining(c))
+# ========== HELPERS ==========
+def strip_accents(s): 
+    return ''.join(c for c in unicodedata.normalize("NFKD", str(s)) if not unicodedata.combining(c))
+
 def norm(s):
     s = strip_accents(s).lower()
-    s = re.sub(r"[^0-9a-záðéíóúýþæö %()\-]", " ", s)
+    s = re.sub(r"[^0-9a-záðéíóúýþæö %]", " ", s)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 
 CANON_ALL = [(k, norm(k), norm(isl), norm(en)) for k, isl, en in CANON]
-def match_label(text):
-    t = norm(text)
+
+def match_label(txt):
+    t = norm(txt)
     if not t: return None
     for k, nk, nisl, nen in CANON_ALL:
         if nk in t or nisl in t or nen in t:
             return k
-    best_key, best_score = None, 0.0
+    # fallback fuzzy
+    best_key, best_sc = None, 0
     for k, nk, nisl, nen in CANON_ALL:
         for cand in (nk, nisl, nen):
             sc = difflib.SequenceMatcher(None, t, cand).ratio()
-            if sc > best_score:
-                best_score, best_key = sc, k
-    return best_key if best_score >= 0.38 else None
+            if sc > best_sc:
+                best_sc, best_key = sc, k
+    return best_key if best_sc >= 0.35 else None
+
+def parse_num(s):
+    if s is None: return None
+    s = str(s).strip()
+    if not s or s in {"-"}: return None
+    s = s.replace(" ","").replace(" ","")
+    s = s.replace(".", "").replace(",", ".")  # treat , as decimal
+    try:
+        return float(s)
+    except ValueError:
+        return None
 
 def to_rect(table):
-    maxw = max(len(r) for r in table if r)
-    return [(r + [None]*(maxw - len(r))) if r and len(r) < maxw else (r or []) for r in table]
+    W = max(len(r) for r in table)
+    return [r + [None]*(W-len(r)) for r in table]
 
-CID_TOKEN = re.compile(r"\(cid:(\d+)\)")
-def decode_cid_numbers(cell):
-    if cell is None: return None
-    s = str(cell)
-    def repl(m):
-        n = int(m.group(1))
-        d = (n % 10) - 1
-        if d < 0: d = 9
-        return str(d)
-    s = CID_TOKEN.sub(repl, s)
-    s = s.replace("\u2212", "-").replace("\u00a0", " ")
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-def parse_num(tok):
-    if tok is None: return None
-    s = str(tok).strip()
-    if not s: return None
-    s = s.replace("\u2212", "-")
-    s = re.sub(r"[¹²³⁴⁵⁶⁷⁸⁹⁰]", "", s).replace(" ", "")
-    if "," in s:
-        s = s.replace(".", "").replace(",", ".")
-    elif "." in s:
-        if not (s.count(".") == 1 and re.fullmatch(r"-?\d{1,3}\.\d{1,3}", s)):
-            s = s.replace(".", "")
-    s = re.sub(r"[^0-9.\-]", "", s)
-    if s in {"", "-", "."}: return None
-    try: return float(s)
-    except ValueError: return None
-
-def looks_numericish(cell) -> bool:
-    if cell is None: return False
-    return bool(re.search(r"\d|\(cid:\d+\)", str(cell)))
-
-def best_numeric_run(tbl, run_len):
-    W = len(tbl[0]); dens = [0]*W
-    for row in tbl:
-        for j in range(W):
-            if looks_numericish(row[j]): dens[j] += 1
-    best_sum, best_start = -1, None
-    for start in range(0, W - run_len + 1):
-        s = sum(dens[start:start+run_len])
-        if s > best_sum: best_sum, best_start = s, start
-    return [] if best_start is None else list(range(best_start, best_start + run_len))
-
-def numeric_count(row, year_cols):
-    return sum(1 for cj in year_cols if cj < len(row) and parse_num(decode_cid_numbers(row[cj])) is not None)
-
-def left_text(row, first_year_col):
-    return " ".join(c for c in row[:first_year_col] if c and str(c).strip()).strip()
-
-def collapse_rows(tbl, year_cols, first_year_col):
-    out, i = [], 0
-    while i < len(tbl):
-        row = tbl[i]; n_this = numeric_count(row, year_cols)
-        if n_this <= 1 and i+1 < len(tbl):
-            row_next = tbl[i+1]; n_next = numeric_count(row_next, year_cols)
-            if n_next >= max(2, int(0.6*len(year_cols))):
-                merged_label = " ".join(x for x in [left_text(row, first_year_col), left_text(row_next, first_year_col)] if x)
-                new_row = list(row_next)
-                new_row[:first_year_col] = [merged_label] + [None]*(first_year_col-1)
-                out.append(new_row); i += 2; continue
-        out.append(row); i += 1
-    return out
-
+# ========== MAIN ==========
 def main():
     with pdfplumber.open(PDF_PATH) as pdf:
-        page = pdf.pages[PREFERRED_PAGE - 1]
-        tables = page.extract_tables(table_settings=TABLE_SETTINGS[STRATEGY]) or []
+        page = pdf.pages[PREFERRED_PAGE-1]
+        tables = page.extract_tables(table_settings=TABLE_SETTINGS[STRATEGY])
         if not tables or CANDIDATE_INDEX >= len(tables):
-            print("[!] Table not found."); return
-        raw = tables[CANDIDATE_INDEX]
+            print("[!] table not found")
+            return
+        tbl = to_rect(tables[CANDIDATE_INDEX])
 
-    tbl = to_rect(raw)
+    # ---- Year mapping from header (robust) ----
+    YEAR_RX = re.compile(r"20\d{2}")
 
-    year_cols = best_numeric_run(tbl, run_len=len(EXPECTED_YEARS))
-    if len(year_cols) != len(EXPECTED_YEARS):
-        print("[!] Could not lock a contiguous numeric block.", year_cols); return
-    col2year = {c: yr for c, yr in zip(sorted(year_cols), EXPECTED_YEARS)}
+    def _clean_year_token(s: str):
+        # turn '2020¹' or '2020  ' into 2020 (int)
+        t = re.sub(r"[^\d]", "", s or "")
+        if len(t) >= 4:
+            y = int(t[-4:])  # last 4 digits
+            if 2000 <= y <= 2035:
+                return y
+        return None
+
+    def detect_year_cols_from_header(tbl, expected_years):
+        """
+        Scan the top ~15 rows for a run of 7 year labels.
+        Return (year_cols, col2year, header_row_index).
+        """
+        H = min(15, len(tbl))
+        W = len(tbl[0]) if tbl else 0
+        target_len = len(expected_years)
+
+        for r in range(H):
+            # collect (col_index, year_int) where a year-like token exists
+            found = []
+            for c in range(W):
+                cell = tbl[r][c]
+                if not cell:
+                    continue
+                s = str(cell)
+                if YEAR_RX.search(s):
+                    y = _clean_year_token(s)
+                    if y is not None:
+                        found.append((c, y))
+
+            # try to find a contiguous slice of length target_len
+            if len(found) >= target_len:
+                # build a dense vector of just the year ints per column
+                cols = [None] * W
+                for c, y in found:
+                    cols[c] = y
+
+                # slide a window of width target_len and check if they form a strictly increasing sequence of years
+                for start in range(0, W - target_len + 1):
+                    window = cols[start:start + target_len]
+                    if any(v is None for v in window):
+                        continue
+                    # e.g., should equal [2020,2021,...] OR [2021..2027]; we’ll just take them as-is
+                    if all(window[i] < window[i+1] for i in range(target_len - 1)):
+                        year_cols = list(range(start, start + target_len))
+                        col2year = {c: y for c, y in zip(year_cols, window)}
+                        return year_cols, col2year, r
+
+        # fallback: use the first numeric-heavy column as start and map to expected_years
+        dens = [sum(1 for row in tbl if c < len(row) and row[c] and re.search(r"\d", str(row[c]))) for c in range(W)]
+        start_col = max(range(W), key=lambda c: dens[c])
+        year_cols = list(range(start_col, start_col + len(expected_years)))
+        col2year = {c: y for c, y in zip(year_cols, expected_years)}
+        return year_cols, col2year, None
+
+    # ---- use it (drop-in) ----
+    EXPECTED_YEARS = [2020, 2021, 2022, 2023, 2024, 2025, 2026]
+
+    year_cols, col2year, header_idx = detect_year_cols_from_header(tbl, EXPECTED_YEARS)
+    if not year_cols:
+        print("[!] Failed to detect year columns"); return
     first_year_col = min(year_cols)
 
-    tbl2 = collapse_rows(tbl, year_cols, first_year_col)
+    print("\n[debug] header-based year mapping")
+    print("  header row idx:", header_idx if header_idx is not None else "(fallback)")
+    print("  year_cols:     ", year_cols)
+    print("  year labels:   ", [col2year[c] for c in year_cols])
 
+    # proceed with your existing tidy build, but use 'first_year_col', 'year_cols', 'col2year'
+    # e.g.:
     rows, unmatched = [], []
-    for row in tbl2:
-        label_text = left_text(row, first_year_col)
-        if not label_text: continue
-        k = match_label(label_text)
-        if not k: unmatched.append(label_text); continue
-
-        if not any(parse_num(decode_cid_numbers(row[c])) is not None for c in year_cols if c < len(row)):
+    for r in tbl:
+        label_txt = " ".join(x for x in r[:first_year_col] if x and str(x).strip()).strip()
+        if not label_txt:
             continue
+        k = match_label(label_txt)
+        if not k:
+            unmatched.append(label_txt); continue
+        for c in year_cols:
+            raw = r[c] if c < len(r) else None
+            v = parse_num(raw) if raw is not None else None
+            if v is not None:
+                rows.append({
+                    "label_key": k,
+                    "label_is": KEY_TO_IS[k],
+                    "label_en": KEY_TO_EN[k],
+                    "year": col2year[c],
+                    "value": v
+                })
 
-        for cj in year_cols:
-            yr = col2year[cj]; raw_cell = row[cj] if cj < len(row) else None
-            dec = decode_cid_numbers(raw_cell); val = parse_num(dec)
-            if val is not None:
-                rows.append({"label_key": k, "label_is": KEY_TO_IS[k], "label_en": KEY_TO_EN[k],
-                             "year": yr, "value": val})
 
-    if not rows:
-        print("[!] No data rows matched."); 
-        if unmatched: print("   Unmatched (sample):", unmatched[:10])
-        return
+    tidy = pd.DataFrame(rows).sort_values(["label_key", "year"]).reset_index(drop=True)
+    pivot = tidy.pivot_table(index="label_key", columns="year", values="value", aggfunc="last")
 
-    tidy = pd.DataFrame(rows).sort_values(["label_key","year"]).reset_index(drop=True)
-    pivot = tidy.pivot_table(index="label_key", columns="year", values="value", aggfunc="last").sort_index()
-
-    with pd.option_context('display.max_rows', None, 'display.max_columns', None, 'display.width', 220):
-        print("\n=== Pivot (labels × years) — rounded 1 dp ===")
+    with pd.option_context('display.max_rows', None, 'display.max_columns', None, 'display.width', 180):
+        print("\n=== Pivot (rounded) ===")
         print(pivot.round(1))
 
-    expected = {k for k,_,_ in CANON}
-    missing = sorted(expected - set(tidy["label_key"].unique()))
-    if missing: print("\n[warn] Missing labels:", ", ".join(missing))
+    if unmatched:
+        print("\n[warn] Unmatched labels:")
+        for u in unmatched[:10]:
+            print("  ", u)
+
 
 if __name__ == "__main__":
     main()
