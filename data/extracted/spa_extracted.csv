@@ -1,0 +1,113 @@
+label_key,label_is,label_en,year,value,page,source_pdf,type
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2024,,12,spa_2025_juli_sumar.pdf,historical
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2025,,12,spa_2025_juli_sumar.pdf,forecast
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2029,,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2030,3440414040404.0,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2024,,12,spa_2025_juli_sumar.pdf,historical
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2025,,12,spa_2025_juli_sumar.pdf,forecast
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2029,706.9,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2030,-824416213.7,12,spa_2025_juli_sumar.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2024,,12,spa_2025_juli_sumar.pdf,historical
+einkaneysla,Einkaneysla,Private final consumption,2025,,12,spa_2025_juli_sumar.pdf,forecast
+einkaneysla,Einkaneysla,Private final consumption,2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2029,,12,spa_2025_juli_sumar.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2030,831292828272.5,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2024,,12,spa_2025_juli_sumar.pdf,historical
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2025,,12,spa_2025_juli_sumar.pdf,forecast
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2029,,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2030,-2205490811041.6,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2024,,12,spa_2025_juli_sumar.pdf,historical
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2025,,12,spa_2025_juli_sumar.pdf,forecast
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2029,775.0,12,spa_2025_juli_sumar.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2030,-453921233.5,12,spa_2025_juli_sumar.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2024,,12,spa_2025_juli_sumar.pdf,historical
+gengisvisitala,Gengisvísitala,Exchange rate index,2025,,12,spa_2025_juli_sumar.pdf,forecast
+gengisvisitala,Gengisvísitala,Exchange rate index,2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2029,0.0,12,spa_2025_juli_sumar.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2030,-28000000000.0,12,spa_2025_juli_sumar.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2024,,12,spa_2025_juli_sumar.pdf,historical
+raungengi,Raungengi,Real exchange rate,2025,,12,spa_2025_juli_sumar.pdf,forecast
+raungengi,Raungengi,Real exchange rate,2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2029,,12,spa_2025_juli_sumar.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2030,3339160604050.4,12,spa_2025_juli_sumar.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2024,,12,spa_2025_juli_sumar.pdf,historical
+samneysla,Samneysla,Government final consumption,2025,,12,spa_2025_juli_sumar.pdf,forecast
+samneysla,Samneysla,Government final consumption,2026,,12,spa_2025_juli_sumar.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2027,,12,spa_2025_juli_sumar.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2028,,12,spa_2025_juli_sumar.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2029,,12,spa_2025_juli_sumar.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2030,2116110811111.1,12,spa_2025_juli_sumar.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2024,,11,spa_2025_mars_vor.pdf,historical
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2025,,11,spa_2025_mars_vor.pdf,forecast
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2026,,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2027,,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2028,,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2029,,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuleysi,Atvinnuleysi (% af vinnuafli),Unemployment rate (% of labour force),2030,3440414040404.0,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2024,,11,spa_2025_mars_vor.pdf,historical
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2025,,11,spa_2025_mars_vor.pdf,forecast
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2026,,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2027,,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2028,,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2029,678.7,11,spa_2025_mars_vor.pdf,extrapolation
+atvinnuvegafjarfesting,Atvinnuvegafjárfesting,Business investment,2030,-742726202.7,11,spa_2025_mars_vor.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2024,,11,spa_2025_mars_vor.pdf,historical
+einkaneysla,Einkaneysla,Private final consumption,2025,,11,spa_2025_mars_vor.pdf,forecast
+einkaneysla,Einkaneysla,Private final consumption,2026,,11,spa_2025_mars_vor.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2027,,11,spa_2025_mars_vor.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2028,,11,spa_2025_mars_vor.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2029,,11,spa_2025_mars_vor.pdf,extrapolation
+einkaneysla,Einkaneysla,Private final consumption,2030,624292828272.5,11,spa_2025_mars_vor.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2024,,11,spa_2025_mars_vor.pdf,historical
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2025,,11,spa_2025_mars_vor.pdf,forecast
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2026,,11,spa_2025_mars_vor.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2027,,11,spa_2025_mars_vor.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2028,,11,spa_2025_mars_vor.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2029,-1.4,11,spa_2025_mars_vor.pdf,extrapolation
+fjarfesting hins opinbera,Fjárfesting hins opinbera,Public investment,2030,-27510811041.6,11,spa_2025_mars_vor.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2024,,11,spa_2025_mars_vor.pdf,historical
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2025,,11,spa_2025_mars_vor.pdf,forecast
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2026,,11,spa_2025_mars_vor.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2027,,11,spa_2025_mars_vor.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2028,,11,spa_2025_mars_vor.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2029,754.6,11,spa_2025_mars_vor.pdf,extrapolation
+fjarmunamyndun,Fjármunamyndun,Gross fixed capital formation,2030,-402928222.8,11,spa_2025_mars_vor.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2024,,11,spa_2025_mars_vor.pdf,historical
+gengisvisitala,Gengisvísitala,Exchange rate index,2025,,11,spa_2025_mars_vor.pdf,forecast
+gengisvisitala,Gengisvísitala,Exchange rate index,2026,,11,spa_2025_mars_vor.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2027,,11,spa_2025_mars_vor.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2028,,11,spa_2025_mars_vor.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2029,0.0,11,spa_2025_mars_vor.pdf,extrapolation
+gengisvisitala,Gengisvísitala,Exchange rate index,2030,-8000000000.0,11,spa_2025_mars_vor.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2024,,11,spa_2025_mars_vor.pdf,historical
+raungengi,Raungengi,Real exchange rate,2025,,11,spa_2025_mars_vor.pdf,forecast
+raungengi,Raungengi,Real exchange rate,2026,,11,spa_2025_mars_vor.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2027,,11,spa_2025_mars_vor.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2028,,11,spa_2025_mars_vor.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2029,,11,spa_2025_mars_vor.pdf,extrapolation
+raungengi,Raungengi,Real exchange rate,2030,3322070505050.5,11,spa_2025_mars_vor.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2024,,11,spa_2025_mars_vor.pdf,historical
+samneysla,Samneysla,Government final consumption,2025,,11,spa_2025_mars_vor.pdf,forecast
+samneysla,Samneysla,Government final consumption,2026,,11,spa_2025_mars_vor.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2027,,11,spa_2025_mars_vor.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2028,,11,spa_2025_mars_vor.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2029,,11,spa_2025_mars_vor.pdf,extrapolation
+samneysla,Samneysla,Government final consumption,2030,2514120811111.1,11,spa_2025_mars_vor.pdf,extrapolation
