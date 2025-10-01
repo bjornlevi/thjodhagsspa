@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os, re, unicodedata, difflib
-import pdfplumber
-import pandas as pd
+import re, unicodedata, difflib
+import pdfplumber, pandas as pd
 
-# -------- SELECTORS (use locate_table.py output) --------
+# === SELECTORS (this PDF) ===
 PDF_PATH        = "data/spa_pdf/spa_2022_november_vetur_haust.pdf"
 PREFERRED_PAGE  = 15
 STRATEGY        = "text_loose"
 CANDIDATE_INDEX = 0
+
+EXPECTED_YEARS = list(range(2021, 2029))  # 2021..2028
 
 TABLE_SETTINGS = {
     "lines_loose": dict(vertical_strategy="lines", horizontal_strategy="lines",
@@ -18,7 +19,7 @@ TABLE_SETTINGS = {
                        text_tolerance=3, snap_tolerance=3, join_tolerance=3),
 }
 
-# -------- CANON (keep yours) --------
+# === CANON ===
 CANON = [
     ("einkaneysla", "Einkaneysla", "Private final consumption"),
     ("samneysla", "Samneysla", "Government final consumption"),
@@ -43,26 +44,25 @@ CANON = [
     ("oliuverd", "Olíuverð", "Oil price"),
     ("atvinnuleysi", "Atvinnuleysi (% af vinnuafli)", "Unemployment rate (% of labour force)"),
 ]
+KEY_TO_IS = {k: isl for k, isl, en in CANON}
+KEY_TO_EN = {k: en  for k, isl, en in CANON}
 
-# -------- helpers you already have (kept concise) --------
-def strip_accents(s: str) -> str:
-    return ''.join(c for c in unicodedata.normalize("NFKD", str(s)) if not unicodedata.combining(c))
-
-def norm(s: str) -> str:
+# === Helpers ===
+def strip_accents(s): return ''.join(c for c in unicodedata.normalize("NFKD", str(s)) if not unicodedata.combining(c))
+def norm(s):
     s = strip_accents(s).lower()
     s = re.sub(r"[^0-9a-záðéíóúýþæö %]", " ", s)
     s = re.sub(r"\s+", " ", s)
     return s.strip()
 
-CANON_MAP = {norm(k): (k, isl, en) for k, isl, en in CANON}
 CANON_ALL = [(k, norm(k), norm(isl), norm(en)) for k, isl, en in CANON]
-
-def match_label(text: str) -> str | None:
+def match_label(text):
     t = norm(text)
     if not t: return None
     for k, nk, nisl, nen in CANON_ALL:
         if nk in t or nisl in t or nen in t:
             return k
+    # fuzzy fallback
     best_key, best_score = None, 0.0
     for k, nk, nisl, nen in CANON_ALL:
         for cand in (nk, nisl, nen):
@@ -71,192 +71,72 @@ def match_label(text: str) -> str | None:
                 best_score, best_key = sc, k
     return best_key if best_score >= 0.35 else None
 
+def to_rect(table):
+    maxw = max(len(r) for r in table if r)
+    return [(r + [None]*(maxw - len(r))) if r and len(r) < maxw else (r or []) for r in table]
+
+# === CID decode (rule: digit = (cid % 10 - 1) mod 10) ===
+CID_TOKEN = re.compile(r"\(cid:(\d+)\)")
+def decode_cid_numbers(cell):
+    """Decode '(cid:61x)' digits using the observed +1 offset; preserve commas and minus."""
+    if cell is None:
+        return None
+    s = str(cell)
+    def repl(m):
+        n = int(m.group(1))
+        d = (n % 10) - 1
+        if d < 0: d = 9
+        return str(d)
+    s = CID_TOKEN.sub(repl, s)
+    s = s.replace("\u2212", "-").replace("\u00a0", " ")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+# === parse (Icelandic) ===
 def parse_num(tok):
-    """PDF-specific parser (for spa_2022_november_vetur_haust.pdf).
-
-    Rules:
-      - If ',' present: treat as decimal; strip any '.' thousands → '1.234,56' -> 1234.56
-      - If only '.' present:
-          keep as decimal iff it looks like -?\d{1,3}\.\d{1,3}
-          otherwise treat '.' as thousands (strip) → '4.616' -> 4616
-      - Else: plain integer
-    """
-    if tok is None:
-        return None
+    """',' = decimal; '.' = thousands unless small decimal pattern."""
+    if tok is None: return None
     s = str(tok).strip()
-    if not s:
-        return None
-
-    # normalize minus + drop footnote superscripts + internal spaces
+    if not s: return None
     s = s.replace("\u2212", "-")
     s = re.sub(r"[¹²³⁴⁵⁶⁷⁸⁹⁰]", "", s)
     s = s.replace(" ", "")
-
     if "," in s:
         s = s.replace(".", "").replace(",", ".")
     elif "." in s:
         if s.count(".") == 1 and re.fullmatch(r"-?\d{1,3}\.\d{1,3}", s):
-            pass  # keep dot as decimal (e.g., -6.116, 2.5, 12.3)
+            pass
         else:
-            s = s.replace(".", "")  # treat as thousands
-    # else: digits only
-
+            s = s.replace(".", "")
     s = re.sub(r"[^0-9.\-]", "", s)
-    if s in {"", "-", "."}:
-        return None
+    if s in {"", "-", "."}: return None
     try:
         return float(s)
     except ValueError:
         return None
 
+# === choose densest 8-col numeric block ===
+def looks_numericish(cell) -> bool:
+    if cell is None: return False
+    s = str(cell)
+    return bool(re.search(r"\d|\(cid:\d+\)", s))
 
-def to_rect(table):
-    maxw = max(len(r) for r in table if r)
-    return [(r + [None]*(maxw - len(r))) if r and len(r) < maxw else (r or []) for r in table]
-
-def forecast_year_from_filename(path: str):
-    m = re.search(r"spa[_\-]?(\d{4})", os.path.basename(path))
-    return int(m.group(1)) if m else None
-
-# -------- robust year detection (multi-pass) --------
-def header_band_years(tbl, band=10):
-    """Scan top/bottom bands for years per column (tolerates split digits)."""
-    col2year = {}
-    W = len(tbl[0])
-    def scan_rows(rows):
-        for i in rows:
-            row = tbl[i]
-            for j in range(W):
-                cell = row[j]
-                if not cell: continue
-                # look in a 3-col window to tolerate split tokens
-                win = []
-                for jj in range(max(0,j-1), min(W, j+2)):
-                    if tbl[i][jj]:
-                        win.append(str(tbl[i][jj]))
-                txt = " ".join(win)
-                txt = re.sub(r"(?<=\d)\s+(?=\d)", "", txt)  # join split digits
-                m = re.search(r"\b(19\d{2}|20\d{2})\b", txt)
-                if m:
-                    col2year[j] = int(m.group(1))
-    scan_rows(range(0, min(band, len(tbl))))
-    scan_rows(range(max(0, len(tbl)-band), len(tbl)))
-    return col2year
-
-def numeric_density_cols(tbl):
+def best_numeric_run(tbl, run_len):
     W = len(tbl[0])
     dens = [0]*W
-    for i in range(len(tbl)):
+    for row in tbl:
         for j in range(W):
-            if parse_num(tbl[i][j]) is not None:
+            if looks_numericish(row[j]):
                 dens[j] += 1
-    return dens
+    best_sum, best_start = -1, None
+    for start in range(0, W - run_len + 1):
+        s = sum(dens[start:start+run_len])
+        if s > best_sum:
+            best_sum, best_start = s, start
+    if best_start is None: return []
+    return list(range(best_start, best_start + run_len))
 
-def longest_contiguous(indices):
-    if not indices: return []
-    best, cur = [], [indices[0]]
-    for a,b in zip(indices, indices[1:]):
-        if b == a+1:
-            cur.append(b)
-        else:
-            if len(cur) > len(best): best = cur
-            cur = [b]
-    if len(cur) > len(best): best = cur
-    return best
-
-def infer_years(tbl, filename_year=None):
-    W = len(tbl[0])
-
-    # Pass A: numeric density
-    dens = numeric_density_cols(tbl)
-    # progressively lower thresholds
-    for thr in (8, 6, 4, 3, 2):
-        candidate = [j for j,c in enumerate(dens) if c >= thr]
-        run = longest_contiguous(candidate)
-        if len(run) >= 4:
-            year_cols = run
-            break
-    else:
-        year_cols = []
-
-    # Pass B: header band scan for explicit years
-    col2year = header_band_years(tbl)
-    # If we have year_cols but missing labels, try to align using nearest known year col
-    if year_cols:
-        # fill gaps using explicit years if any
-        explicit = sorted((c,y) for c,y in col2year.items() if c in year_cols)
-        if explicit:
-            # anchor on first explicit and fill sequentially
-            cols_sorted = sorted(year_cols)
-            first_c, first_y = explicit[0]
-            base_idx = cols_sorted.index(first_c)
-            # left
-            y = first_y
-            for k in range(base_idx-1, -1, -1):
-                y -= 1
-                col2year[cols_sorted[k]] = y
-            # right
-            y = first_y
-            for k in range(base_idx+1, len(cols_sorted)):
-                y += 1
-                col2year[cols_sorted[k]] = y
-        else:
-            # no explicit: try anchoring by filename year (if present) at the last column (common)
-            if filename_year is None:
-                filename_year = forecast_year_from_filename(PDF_PATH)
-            if filename_year is not None:
-                for idx,k in enumerate(sorted(year_cols)):
-                    # assume increasing left->right; try to place filename year at the last col
-                    offset = len(year_cols) - 1 - idx
-                    col2year[k] = filename_year - offset
-
-    # Pass C: if we still have no year_cols, use the most-numeric row to define them
-    if not year_cols:
-        best_row, best_idxs = None, []
-        for i,row in enumerate(tbl):
-            idxs = [j for j,v in enumerate(row) if parse_num(v) is not None]
-            if len(idxs) > len(best_idxs):
-                best_row, best_idxs = i, idxs
-        run = longest_contiguous(best_idxs)
-        if len(run) >= 4:
-            year_cols = run
-            if not col2year:
-                # try header years again; else filename anchor
-                col2year = header_band_years(tbl)
-            if not col2year:
-                fy = filename_year if filename_year is not None else forecast_year_from_filename(PDF_PATH)
-                if fy is not None:
-                    cols_sorted = sorted(year_cols)
-                    for idx,k in enumerate(cols_sorted):
-                        # place filename year at the last (forecast) column
-                        offset = len(cols_sorted) - 1 - idx
-                        col2year[k] = fy - offset
-
-    # Final sanity
-    if not year_cols or not col2year:
-        return None, [], {}
-
-    # ensure all year_cols have a year via sequential fill
-    cols_sorted = sorted(year_cols)
-    # find any anchor
-    anchors = [c for c in cols_sorted if c in col2year]
-    if anchors:
-        base_c = anchors[0]
-        base_y = col2year[base_c]
-        # left
-        y = base_y
-        for k in range(cols_sorted.index(base_c)-1, -1, -1):
-            y -= 1
-            col2year[cols_sorted[k]] = y
-        # right
-        y = base_y
-        for k in range(cols_sorted.index(base_c)+1, len(cols_sorted)):
-            y += 1
-            col2year[cols_sorted[k]] = y
-    first_year_col = min(year_cols)
-    return first_year_col, year_cols, col2year
-
-# -------- main build --------
+# === main ===
 def main():
     with pdfplumber.open(PDF_PATH) as pdf:
         page = pdf.pages[PREFERRED_PAGE - 1]
@@ -267,52 +147,75 @@ def main():
 
     tbl = to_rect(raw)
 
-    # robust year inference
-    fyc, year_cols, col2year = infer_years(tbl, filename_year=forecast_year_from_filename(PDF_PATH))
-    if not year_cols or not col2year:
-        print("[!] Could not infer year columns. Debug:")
-        print("   first_year_col:", fyc)
-        print("   year_cols:", year_cols)
-        print("   col2year:", col2year)
+    # 1) year columns 2021..2028
+    year_cols = best_numeric_run(tbl, run_len=len(EXPECTED_YEARS))
+    if len(year_cols) != len(EXPECTED_YEARS):
+        print("[!] Could not lock a contiguous 8-column numeric block.")
+        print("densest block:", year_cols)
         return
+    col2year = {c: yr for c, yr in zip(sorted(year_cols), EXPECTED_YEARS)}
+    first_year_col = min(year_cols)
 
-    # build tidy
+    # 2) build tidy
     rows, unmatched = [], []
-    for ri, row in enumerate(tbl):
-        # require at least one numeric value in year columns
-        if not any(parse_num(row[c]) is not None for c in year_cols if c < len(row)):
-            continue
-        # label is left of first year col
-        label_text = " ".join(c for c in row[:fyc] if c and str(c).strip()).strip()
+    for row in tbl:
+        label_text = " ".join(c for c in row[:first_year_col] if c and str(c).strip()).strip()
         if not label_text:
             continue
         k = match_label(label_text)
         if not k:
             unmatched.append(label_text)
             continue
-        key, isl, en = CANON_MAP[norm(k)]
+
+        # must have at least one numeric after decoding/parsing
+        if not any(parse_num(decode_cid_numbers(row[c])) is not None for c in year_cols if c < len(row)):
+            continue
+
         for cj in year_cols:
-            yr = col2year.get(cj)
-            if yr is None: continue
-            val = parse_num(row[cj])
+            yr = col2year[cj]
+            raw = row[cj]
+            dec = decode_cid_numbers(raw)
+            val = parse_num(dec)
             if val is not None:
-                rows.append({"label_key": key, "label_is": isl, "label_en": en, "year": yr, "value": val})
+                rows.append({
+                    "label_key": k,
+                    "label_is": KEY_TO_IS[k],
+                    "label_en": KEY_TO_EN[k],
+                    "year": yr,
+                    "value": val,
+                })
 
     if not rows:
-        print("[!] No data rows matched after year inference.")
-        print("   year_cols:", year_cols)
-        print("   col2year:", col2year)
+        print("[!] No data rows matched.")
         if unmatched:
-            print("   Unmatched labels (sample):", unmatched[:12])
+            print("   Unmatched labels (sample):", unmatched[:10])
         return
 
     tidy = pd.DataFrame(rows).sort_values(["label_key","year"]).reset_index(drop=True)
     pivot = tidy.pivot_table(index="label_key", columns="year", values="value", aggfunc="last").sort_index()
 
+    # 3) print rounded (1 dp) pivot
     with pd.option_context('display.max_rows', None, 'display.max_columns', None, 'display.width', 220):
-        print("\n=== Pivot (labels × years) ===")
-        print(pivot)
+        print("\n=== Pivot (labels × years) — rounded 1 dp ===")
+        print(pivot.round(1))
 
+    # 4) debug if a key is missing
+    target = "atvinnuvegafjarfesting"
+    if target not in tidy["label_key"].unique():
+        print(f"\n[debug] '{target}' missing — dumping raw/decoded/parsed candidates containing 'atvinnu':")
+        for ri, row in enumerate(tbl):
+            label_text = " ".join(c for c in row[:first_year_col] if c and str(c).strip()).strip()
+            if not label_text:
+                continue
+            if "atvinnu" in strip_accents(label_text).lower():
+                print(f"\n[raw label guess @ row {ri}]: {label_text}")
+                for cj in year_cols:
+                    yr = col2year[cj]
+                    raw = row[cj] if cj < len(row) else None
+                    dec = decode_cid_numbers(raw)
+                    print(f"  {yr}: raw={repr(raw)} dec={repr(dec)} parsed={parse_num(dec)}")
+
+    # warn on missing labels overall
     expected = {k for k,_,_ in CANON}
     missing = sorted(expected - set(tidy["label_key"].unique()))
     if missing:
