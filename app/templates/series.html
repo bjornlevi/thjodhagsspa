@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block title %}{{ isl }} • Þjóðhagsspá{% endblock %}
+{% block content %}
+<h2>{{ isl }} <span class="muted">/ {{ eng }}</span></h2>
+
+<div class="card">
+  <canvas id="chart"></canvas>
+</div>
+
+<h3>PX tenging</h3>
+{% if actual_series %}
+  <p>Nú tengt við: <code>{{ actual_series.series_code }}</code> — {{ actual_series.series_label }}</p>
+{% else %}
+  <p class="muted">Engin PX-tenging fyrir þennan merkimiða.</p>
+{% endif %}
+
+<form method="post" action="{{ url_for('set_map') }}" class="inline-form">
+  <input type="hidden" name="label_key" value="{{ label_key }}">
+  <label>Veldu PX röð:</label>
+  <select name="series_code">
+    {% for s in query('SELECT series_code, series_label FROM px_series ORDER BY series_label') %}
+      <option value="{{ s.series_code }}">{{ s.series_label }} ({{ s.series_code }})</option>
+    {% endfor %}
+  </select>
+  <button class="btn" type="submit">Vista</button>
+</form>
+
+<script>
+(function() {
+  // group forecasts by pdf_name
+  const forecasts = {{ forecasts|tojson }};
+  const actual = {{ actual_obs|tojson }};
+  const byPdf = {};
+  forecasts.forEach(r => {
+    byPdf[r.pdf_name] = byPdf[r.pdf_name] || [];
+    byPdf[r.pdf_name].push({x: r.year, y: r.value, t: r.type});
+  });
+  Object.keys(byPdf).forEach(k => byPdf[k].sort((a,b)=>a.x-b.x));
+
+  const ds = [];
+  const palette = (i) => `hsl(${(i*67)%360} 70% 45%)`;
+
+  let i = 0;
+  for (const [name, series] of Object.entries(byPdf)) {
+    ds.push({
+      label: name,
+      data: series.map(p => ({x: p.x, y: p.y})),
+      borderColor: palette(i++),
+      tension: 0.15
+    });
+  }
+  if (actual.length) {
+    ds.push({
+      label: "Rauntölur (PX)",
+      data: actual.map(p => ({x: p.year, y: p.value})),
+      borderColor: "#111",
+      borderWidth: 2,
+      pointRadius: 2
+    });
+  }
+
+  const ctx = document.getElementById('chart').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: { datasets: ds },
+    options: {
+      interaction: { mode: 'nearest', intersect: false },
+      scales: {
+        x: { type: 'linear', ticks: { stepSize: 1 } },
+        y: { beginAtZero: false }
+      }
+    }
+  });
+})();
+</script>
+{% endblock %}

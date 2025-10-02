@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Yfirlit • Þjóðhagsspá{% endblock %}
+{% block content %}
+<h2>Yfirlit</h2>
+<p>Veldu röð til að skoða spár milli útgáfa og bera saman við rauntölur.</p>
+
+<table class="list">
+  <thead><tr><th>Merkimiði</th><th>Íslenska</th><th>Enska</th><th>PX-tenging</th><th></th></tr></thead>
+  <tbody>
+  {% for r in labels %}
+    <tr>
+      <td><code>{{ r.label_key }}</code></td>
+      <td>{{ r.isl }}</td>
+      <td class="muted">{{ r.eng }}</td>
+      <td>{% if mapped.get(r.label_key) %}✅{% else %}—{% endif %}</td>
+      <td><a class="btn" href="{{ url_for('series_page', label_key=r.label_key) }}">Skoða</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

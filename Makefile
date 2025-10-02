@@ -48,3 +48,18 @@ db-clean: ## Remove the SQLite DB
 clean: ## Remove extracted files
 	rm -rf $(RAW_DIR)/* $(CSV_DIR)/*
 	@echo "Cleaned $(RAW_DIR) and $(CSV_DIR)"
+
+# --- PX fetch + Flask ---
+PX_FETCH_MOD = pipeline.px_fetch
+
+px-dump: ## Fetch PX raw JSON only (no parsing), print quick summary
+	$(PYTHON) -m pipeline.px_dump
+
+px-fetch: ## Load THJ07100 PXWeb into SQLite (uses cached JSON if present)
+	$(PYTHON) -m pipeline.px_fetch
+
+px-preview: ## Preview px_* tables
+	$(PYTHON) -m pipeline.px_preview
+
+serve: ## Run the Flask dev server
+	FLASK_APP=app.py FLASK_ENV=development $(PYTHON) app.py

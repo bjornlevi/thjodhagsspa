@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="is">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Þjóðhagsspá{% endblock %}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{ url_for('static', filename='site.css') }}" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1><a href="{{ url_for('index') }}">Þjóðhagsspá</a></h1>
+      <p class="subtle">Forgreining vs. rauntölur (Statistics Iceland)</p>
+    </div>
+  </header>
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Byggt á CSV &amp; PX gögnum. {{ _('') }}</p>
+    </div>
+  </footer>
+</body>
+</html>
