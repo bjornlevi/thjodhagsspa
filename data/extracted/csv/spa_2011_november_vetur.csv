@@ -1,0 +1,148 @@
+pdf_name,label_key,year,value,type
+spa_2011_november_vetur,einkaneysla,2010,-0.4,history
+spa_2011_november_vetur,einkaneysla,2011,3.1,forecast
+spa_2011_november_vetur,einkaneysla,2012,3.0,extrapolation
+spa_2011_november_vetur,einkaneysla,2013,2.9,extrapolation
+spa_2011_november_vetur,einkaneysla,2014,3.1,extrapolation
+spa_2011_november_vetur,einkaneysla,2015,2.8,extrapolation
+spa_2011_november_vetur,einkaneysla,2016,2.7,extrapolation
+spa_2011_november_vetur,samneysla,2010,-3.4,history
+spa_2011_november_vetur,samneysla,2011,-1.3,forecast
+spa_2011_november_vetur,samneysla,2012,-0.9,extrapolation
+spa_2011_november_vetur,samneysla,2013,-0.1,extrapolation
+spa_2011_november_vetur,samneysla,2014,0.6,extrapolation
+spa_2011_november_vetur,samneysla,2015,0.9,extrapolation
+spa_2011_november_vetur,samneysla,2016,1.5,extrapolation
+spa_2011_november_vetur,fjarmunamyndun,2010,-8.0,history
+spa_2011_november_vetur,fjarmunamyndun,2011,8.5,forecast
+spa_2011_november_vetur,fjarmunamyndun,2012,16.3,extrapolation
+spa_2011_november_vetur,fjarmunamyndun,2013,7.2,extrapolation
+spa_2011_november_vetur,fjarmunamyndun,2014,9.0,extrapolation
+spa_2011_november_vetur,fjarmunamyndun,2015,5.5,extrapolation
+spa_2011_november_vetur,fjarmunamyndun,2016,9.5,extrapolation
+spa_2011_november_vetur,atvinnuvegafjarfesting,2010,-0.1,history
+spa_2011_november_vetur,atvinnuvegafjarfesting,2011,16.3,forecast
+spa_2011_november_vetur,atvinnuvegafjarfesting,2012,19.0,extrapolation
+spa_2011_november_vetur,atvinnuvegafjarfesting,2013,5.6,extrapolation
+spa_2011_november_vetur,atvinnuvegafjarfesting,2014,7.7,extrapolation
+spa_2011_november_vetur,atvinnuvegafjarfesting,2015,1.9,extrapolation
+spa_2011_november_vetur,atvinnuvegafjarfesting,2016,8.4,extrapolation
+spa_2011_november_vetur,fjarfesting i ibudarhusnaedi,2010,-17.6,history
+spa_2011_november_vetur,fjarfesting i ibudarhusnaedi,2011,15.3,forecast
+spa_2011_november_vetur,fjarfesting i ibudarhusnaedi,2012,23.9,extrapolation
+spa_2011_november_vetur,fjarfesting i ibudarhusnaedi,2013,17.5,extrapolation
+spa_2011_november_vetur,fjarfesting i ibudarhusnaedi,2014,14.5,extrapolation
+spa_2011_november_vetur,fjarfesting i ibudarhusnaedi,2015,11.1,extrapolation
+spa_2011_november_vetur,fjarfesting i ibudarhusnaedi,2016,9.8,extrapolation
+spa_2011_november_vetur,fjarfesting hins opinbera,2010,-19.3,history
+spa_2011_november_vetur,fjarfesting hins opinbera,2011,-20.4,forecast
+spa_2011_november_vetur,fjarfesting hins opinbera,2012,-5.9,extrapolation
+spa_2011_november_vetur,fjarfesting hins opinbera,2013,0.1,extrapolation
+spa_2011_november_vetur,fjarfesting hins opinbera,2014,6.6,extrapolation
+spa_2011_november_vetur,fjarfesting hins opinbera,2015,17.0,extrapolation
+spa_2011_november_vetur,fjarfesting hins opinbera,2016,14.6,extrapolation
+spa_2011_november_vetur,thjodarutgjold alls,2010,-2.7,history
+spa_2011_november_vetur,thjodarutgjold alls,2011,3.3,forecast
+spa_2011_november_vetur,thjodarutgjold alls,2012,3.6,extrapolation
+spa_2011_november_vetur,thjodarutgjold alls,2013,2.8,extrapolation
+spa_2011_november_vetur,thjodarutgjold alls,2014,3.5,extrapolation
+spa_2011_november_vetur,thjodarutgjold alls,2015,2.9,extrapolation
+spa_2011_november_vetur,thjodarutgjold alls,2016,3.7,extrapolation
+spa_2011_november_vetur,utflutningur voru og thjonustu,2010,0.4,history
+spa_2011_november_vetur,utflutningur voru og thjonustu,2011,2.7,forecast
+spa_2011_november_vetur,utflutningur voru og thjonustu,2012,1.4,extrapolation
+spa_2011_november_vetur,utflutningur voru og thjonustu,2013,2.1,extrapolation
+spa_2011_november_vetur,utflutningur voru og thjonustu,2014,2.2,extrapolation
+spa_2011_november_vetur,utflutningur voru og thjonustu,2015,2.5,extrapolation
+spa_2011_november_vetur,utflutningur voru og thjonustu,2016,2.3,extrapolation
+spa_2011_november_vetur,innflutningur voru og thjonustu,2010,4.0,history
+spa_2011_november_vetur,innflutningur voru og thjonustu,2011,4.0,forecast
+spa_2011_november_vetur,innflutningur voru og thjonustu,2012,3.5,extrapolation
+spa_2011_november_vetur,innflutningur voru og thjonustu,2013,2.7,extrapolation
+spa_2011_november_vetur,innflutningur voru og thjonustu,2014,3.5,extrapolation
+spa_2011_november_vetur,innflutningur voru og thjonustu,2015,2.6,extrapolation
+spa_2011_november_vetur,innflutningur voru og thjonustu,2016,3.9,extrapolation
+spa_2011_november_vetur,verg landsframleidsla,2010,-4.0,history
+spa_2011_november_vetur,verg landsframleidsla,2011,2.6,forecast
+spa_2011_november_vetur,verg landsframleidsla,2012,2.4,extrapolation
+spa_2011_november_vetur,verg landsframleidsla,2013,2.5,extrapolation
+spa_2011_november_vetur,verg landsframleidsla,2014,2.8,extrapolation
+spa_2011_november_vetur,verg landsframleidsla,2015,2.8,extrapolation
+spa_2011_november_vetur,verg landsframleidsla,2016,2.8,extrapolation
+spa_2011_november_vetur,voru- og thjonustujofnudur,2010,10.0,history
+spa_2011_november_vetur,voru- og thjonustujofnudur,2011,9.3,forecast
+spa_2011_november_vetur,voru- og thjonustujofnudur,2012,8.7,extrapolation
+spa_2011_november_vetur,voru- og thjonustujofnudur,2013,8.3,extrapolation
+spa_2011_november_vetur,voru- og thjonustujofnudur,2014,7.9,extrapolation
+spa_2011_november_vetur,voru- og thjonustujofnudur,2015,7.9,extrapolation
+spa_2011_november_vetur,voru- og thjonustujofnudur,2016,7.0,extrapolation
+spa_2011_november_vetur,vidskiptajofnudur,2010,-11.1,history
+spa_2011_november_vetur,vidskiptajofnudur,2011,-9.3,forecast
+spa_2011_november_vetur,vidskiptajofnudur,2012,-4.1,extrapolation
+spa_2011_november_vetur,vidskiptajofnudur,2013,-1.7,extrapolation
+spa_2011_november_vetur,vidskiptajofnudur,2014,-2.4,extrapolation
+spa_2011_november_vetur,vidskiptajofnudur,2015,-2.7,extrapolation
+spa_2011_november_vetur,vidskiptajofnudur,2016,-3.0,extrapolation
+spa_2011_november_vetur,visitala neysluverds,2010,5.4,history
+spa_2011_november_vetur,visitala neysluverds,2011,4.1,forecast
+spa_2011_november_vetur,visitala neysluverds,2012,4.2,extrapolation
+spa_2011_november_vetur,visitala neysluverds,2013,2.9,extrapolation
+spa_2011_november_vetur,visitala neysluverds,2014,2.5,extrapolation
+spa_2011_november_vetur,visitala neysluverds,2015,2.5,extrapolation
+spa_2011_november_vetur,visitala neysluverds,2016,2.5,extrapolation
+spa_2011_november_vetur,gengisvisitala,2010,-2.9,history
+spa_2011_november_vetur,gengisvisitala,2011,0.0,forecast
+spa_2011_november_vetur,gengisvisitala,2012,2.1,extrapolation
+spa_2011_november_vetur,gengisvisitala,2013,-0.3,extrapolation
+spa_2011_november_vetur,gengisvisitala,2014,0.3,extrapolation
+spa_2011_november_vetur,gengisvisitala,2015,-0.1,extrapolation
+spa_2011_november_vetur,gengisvisitala,2016,-0.4,extrapolation
+spa_2011_november_vetur,raungengi,2010,6.4,history
+spa_2011_november_vetur,raungengi,2011,0.4,forecast
+spa_2011_november_vetur,raungengi,2012,1.0,extrapolation
+spa_2011_november_vetur,raungengi,2013,1.2,extrapolation
+spa_2011_november_vetur,raungengi,2014,0.2,extrapolation
+spa_2011_november_vetur,raungengi,2015,0.3,extrapolation
+spa_2011_november_vetur,raungengi,2016,0.4,extrapolation
+spa_2011_november_vetur,atvinnuleysi,2010,8.1,history
+spa_2011_november_vetur,atvinnuleysi,2011,7.4,forecast
+spa_2011_november_vetur,atvinnuleysi,2012,6.4,extrapolation
+spa_2011_november_vetur,atvinnuleysi,2013,5.8,extrapolation
+spa_2011_november_vetur,atvinnuleysi,2014,5.5,extrapolation
+spa_2011_november_vetur,atvinnuleysi,2015,4.7,extrapolation
+spa_2011_november_vetur,atvinnuleysi,2016,4.2,extrapolation
+spa_2011_november_vetur,launavisitala m.v. fast verdlag,2010,4.8,history
+spa_2011_november_vetur,launavisitala m.v. fast verdlag,2011,6.6,forecast
+spa_2011_november_vetur,launavisitala m.v. fast verdlag,2012,6.5,extrapolation
+spa_2011_november_vetur,launavisitala m.v. fast verdlag,2013,4.9,extrapolation
+spa_2011_november_vetur,launavisitala m.v. fast verdlag,2014,5.2,extrapolation
+spa_2011_november_vetur,launavisitala m.v. fast verdlag,2015,4.2,extrapolation
+spa_2011_november_vetur,launavisitala m.v. fast verdlag,2016,4.0,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2010,2.0,history
+spa_2011_november_vetur,althjodleg verdbolga,2011,1.9,forecast
+spa_2011_november_vetur,althjodleg verdbolga,2012,1.5,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2013,2.1,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2014,2.4,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2015,2.4,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2016,2.4,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2010,1.9,history
+spa_2011_november_vetur,althjodleg verdbolga,2011,2.6,forecast
+spa_2011_november_vetur,althjodleg verdbolga,2012,1.9,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2013,1.9,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2014,2.0,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2015,2.4,extrapolation
+spa_2011_november_vetur,althjodleg verdbolga,2016,2.5,extrapolation
+spa_2011_november_vetur,verd utflutts als,2010,31.5,history
+spa_2011_november_vetur,verd utflutts als,2011,15.9,forecast
+spa_2011_november_vetur,verd utflutts als,2012,1.3,extrapolation
+spa_2011_november_vetur,verd utflutts als,2013,1.6,extrapolation
+spa_2011_november_vetur,verd utflutts als,2014,2.3,extrapolation
+spa_2011_november_vetur,verd utflutts als,2015,2.5,extrapolation
+spa_2011_november_vetur,verd utflutts als,2016,2.5,extrapolation
+spa_2011_november_vetur,oliuverd,2010,27.9,history
+spa_2011_november_vetur,oliuverd,2011,33.8,forecast
+spa_2011_november_vetur,oliuverd,2012,-4.5,extrapolation
+spa_2011_november_vetur,oliuverd,2013,0.7,extrapolation
+spa_2011_november_vetur,oliuverd,2014,1.9,extrapolation
+spa_2011_november_vetur,oliuverd,2015,2.1,extrapolation
+spa_2011_november_vetur,oliuverd,2016,2.4,extrapolation

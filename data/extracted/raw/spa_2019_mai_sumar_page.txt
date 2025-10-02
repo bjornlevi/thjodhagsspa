@@ -1,0 +1,28 @@
+Tafla 2. Landsframleiðsla 2018–2024
+Table 2. Gross domestic product 2018–2024
+20181 2019 2020 2021 2022 2023 2024
+Einkaneysla Private final consumption 4,8 2,4 2,8 3,0 2,8 2,6 2,5
+Samneysla Government final consumption 3,3 1,9 1,3 1,5 1,9 2,4 2,4
+Fjármunamyndun Gross fixed capital formation 2,1 -5,7 6,2 3,2 2,5 3,5 3,4
+Atvinnuvegafjárfesting Business investment -5,4 -10,1 4,9 2,1 3,4 4,9 4,4
+Fjárfesting í íbúðarhúsnæði Housing investment 16,7 16,2 9,0 5,3 4,7 3,6 3,7
+Fjárfesting hins opinbera Public investment 21,2 -3,5 7,6 4,6 -4,2 -2,1 -1,4
+Þjóðarútgjöld alls National final expenditure 4,1 0,5 3,1 2,7 2,5 2,8 2,7
+Útflutningur vöru og þjónustu Exports of goods and services 1,6 -2,5 2,5 2,8 2,6 2,5 2,5
+Innflutningur vöru og þjónustu Import of goods and services 0,1 -1,2 3,6 2,7 2,5 2,9 2,8
+Verg landsframleiðsla Gross domestic product 4,6 -0,2 2,6 2,7 2,6 2,6 2,5
+Vöru- og þjónustujöfnuður (% af VLF)
+Goods and services balance (% of GDP) 3,1 1,9 1,4 1,5 1,5 1,3 1,2
+Viðskiptajöfnuður (% af VLF)
+Current account balance (% of GDP) 2,9 1,2 0,6 0,8 0,8 0,6 0,5
+VLF á verðlagi hvers árs, ma. kr. Nominal GDP, billion ISK 2.803 2.890 3.070 3.241 3.412 3.594 3.780
+Vísitala neysluverðs Consumer price index 2,7 3,4 3,2 2,6 2,6 2,6 2,5
+Gengisvísitala Exchange rate index 3,9 7,8 0,2 0,0 0,0 0,0 0,0
+Raungengi Real exchange rate -2,9 -5,8 1,1 0,6 0,6 0,5 0,5
+Atvinnuleysi (% af vinnuafli)
+Unemployment rate (% of labour force) 2,7 3,7 3,8 3,8 3,9 4,0 4,0
+Kaupmáttur launa Real wage rate index 3,7 2,1 2,2 3,2 2,6 1,6 1,6
+Hagvöxtur í helstu viðskiptalöndum GDP growth in main trading
+Alþjóðleg verðbólga World CPI inflation 1,9 1,6 1,9 1,9 2,0 2,1 2,1
+Verð útflutts áls Export price of aluminum 13,2 -9,0 0,5 1,1 1,8 1,8 1,8
+Olíuverð Oil price 30,6 -5,3 -1,6 0,0 0,5 1,1 1,2

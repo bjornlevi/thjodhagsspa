@@ -1,0 +1,148 @@
+spa_2010_juni_spa:
+  candidate: 0
+  page: 20
+  strategy: text_loose
+spa_2011_april_spa:
+  candidate: 0
+  page: 18
+  strategy: text_loose
+spa_2011_november_vetur:
+  candidate: 0
+  page: 19
+  strategy: text_loose
+spa_2012_juli_sumar:
+  candidate: 0
+  page: 18
+  strategy: text_loose
+spa_2012_mars_vor:
+  candidate: 0
+  page: 19
+  strategy: text_loose
+spa_2012_november_vetur:
+  candidate: 0
+  page: 19
+  strategy: text_loose
+spa_2013_april_vor:
+  candidate: 0
+  page: 19
+  strategy: text_loose
+spa_2013_juni_sumar:
+  candidate: 0
+  page: 19
+  strategy: text_loose
+spa_2013_november_vetur:
+  candidate: 0
+  page: 19
+  strategy: text_loose
+spa_2014_april_vor:
+  candidate: 0
+  page: 20
+  strategy: text_loose
+spa_2014_juli_sumar:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2014_november_vetur:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2015_april_vor:
+  candidate: 0
+  page: 20
+  strategy: text_loose
+spa_2015_november_vetur:
+  candidate: 0
+  page: 22
+  strategy: text_loose
+spa_2016_mai_sumar:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2016_november_vetur:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2017_februar_vetur_endurskodun:
+  candidate: 0
+  page: 12
+  strategy: text_loose
+spa_2017_mai_sumar:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2017_november_vetur:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2018_juni_sumar:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2018_november_vetur:
+  candidate: 0
+  page: 22
+  strategy: text_loose
+spa_2019_februar_vetur_endurskodun:
+  candidate: 0
+  page: 14
+  strategy: text_loose
+spa_2019_mai_sumar:
+  candidate: 0
+  page: 21
+  strategy: text_loose
+spa_2019_november_vetur:
+  candidate: 0
+  page: 25
+  strategy: text_loose
+spa_2020_juni_sumar:
+  candidate: 0
+  page: 17
+  strategy: text_loose
+spa_2020_oktober_vetur_haust:
+  candidate: 0
+  page: 22
+  strategy: text_loose
+spa_2021_mars_vor:
+  candidate: 0
+  page: 25
+  strategy: text_loose
+spa_2021_november_vetur_haust:
+  candidate: 0
+  page: 23
+  strategy: text_loose
+spa_2022_mars_vor:
+  candidate: 0
+  page: 23
+  strategy: text_loose
+spa_2022_november_vetur_haust:
+  candidate: 0
+  page: 15
+  strategy: text_loose
+spa_2023_juni_sumar:
+  candidate: 0
+  page: 12
+  strategy: text_loose
+spa_2023_november_vetur_haust:
+  candidate: 0
+  page: 16
+  strategy: text_loose
+spa_2024_april_vor_greining:
+  candidate: 0
+  page: 16
+  strategy: text_loose
+spa_2024_juni_sumar:
+  candidate: 0
+  page: 11
+  strategy: text_loose
+spa_2024_november_vetur_haust:
+  candidate: 0
+  page: 6
+  strategy: text_loose
+spa_2025_juli_sumar:
+  candidate: 0
+  page: 12
+  strategy: text_loose
+spa_2025_mars_vor:
+  candidate: 0
+  page: 11
+  strategy: text_loose

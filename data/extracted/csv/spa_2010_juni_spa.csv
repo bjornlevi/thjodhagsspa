@@ -1,0 +1,141 @@
+pdf_name,label_key,year,value,type
+spa_2010_juni_spa,einkaneysla,2009,-14.6,history
+spa_2010_juni_spa,einkaneysla,2010,-0.1,forecast
+spa_2010_juni_spa,einkaneysla,2011,3.4,extrapolation
+spa_2010_juni_spa,einkaneysla,2012,4.4,extrapolation
+spa_2010_juni_spa,einkaneysla,2013,3.0,extrapolation
+spa_2010_juni_spa,einkaneysla,2014,2.5,extrapolation
+spa_2010_juni_spa,einkaneysla,2015,2.7,extrapolation
+spa_2010_juni_spa,samneysla,2009,-3.0,history
+spa_2010_juni_spa,samneysla,2010,-3.8,forecast
+spa_2010_juni_spa,samneysla,2011,-3.8,extrapolation
+spa_2010_juni_spa,samneysla,2012,-1.8,extrapolation
+spa_2010_juni_spa,samneysla,2013,-0.4,extrapolation
+spa_2010_juni_spa,samneysla,2014,2.0,extrapolation
+spa_2010_juni_spa,samneysla,2015,2.7,extrapolation
+spa_2010_juni_spa,fjarmunamyndun,2009,-49.9,history
+spa_2010_juni_spa,fjarmunamyndun,2010,-14.5,forecast
+spa_2010_juni_spa,fjarmunamyndun,2011,25.2,extrapolation
+spa_2010_juni_spa,fjarmunamyndun,2012,18.0,extrapolation
+spa_2010_juni_spa,fjarmunamyndun,2013,0.2,extrapolation
+spa_2010_juni_spa,fjarmunamyndun,2014,1.9,extrapolation
+spa_2010_juni_spa,fjarmunamyndun,2015,7.8,extrapolation
+spa_2010_juni_spa,atvinnuvegafjarfesting,2009,-54.2,history
+spa_2010_juni_spa,atvinnuvegafjarfesting,2010,-2.7,forecast
+spa_2010_juni_spa,atvinnuvegafjarfesting,2011,44.9,extrapolation
+spa_2010_juni_spa,atvinnuvegafjarfesting,2012,20.6,extrapolation
+spa_2010_juni_spa,atvinnuvegafjarfesting,2013,-3.3,extrapolation
+spa_2010_juni_spa,atvinnuvegafjarfesting,2014,-5.7,extrapolation
+spa_2010_juni_spa,atvinnuvegafjarfesting,2015,0.9,extrapolation
+spa_2010_juni_spa,fjarfesting i ibudarhusnaedi,2009,-55.7,history
+spa_2010_juni_spa,fjarfesting i ibudarhusnaedi,2010,-27.8,forecast
+spa_2010_juni_spa,fjarfesting i ibudarhusnaedi,2011,9.1,extrapolation
+spa_2010_juni_spa,fjarfesting i ibudarhusnaedi,2012,21.6,extrapolation
+spa_2010_juni_spa,fjarfesting i ibudarhusnaedi,2013,19.5,extrapolation
+spa_2010_juni_spa,fjarfesting i ibudarhusnaedi,2014,18.7,extrapolation
+spa_2010_juni_spa,fjarfesting i ibudarhusnaedi,2015,17.6,extrapolation
+spa_2010_juni_spa,fjarfesting hins opinbera,2009,-28.9,history
+spa_2010_juni_spa,fjarfesting hins opinbera,2010,-30.2,forecast
+spa_2010_juni_spa,fjarfesting hins opinbera,2011,-23.5,extrapolation
+spa_2010_juni_spa,fjarfesting hins opinbera,2012,-0.9,extrapolation
+spa_2010_juni_spa,fjarfesting hins opinbera,2013,-0.6,extrapolation
+spa_2010_juni_spa,fjarfesting hins opinbera,2014,27.4,extrapolation
+spa_2010_juni_spa,fjarfesting hins opinbera,2015,29.0,extrapolation
+spa_2010_juni_spa,thjodarutgjold alls,2009,-20.1,history
+spa_2010_juni_spa,thjodarutgjold alls,2010,-3.3,forecast
+spa_2010_juni_spa,thjodarutgjold alls,2011,4.0,extrapolation
+spa_2010_juni_spa,thjodarutgjold alls,2012,5.0,extrapolation
+spa_2010_juni_spa,thjodarutgjold alls,2013,1.7,extrapolation
+spa_2010_juni_spa,thjodarutgjold alls,2014,2.3,extrapolation
+spa_2010_juni_spa,thjodarutgjold alls,2015,3.6,extrapolation
+spa_2010_juni_spa,utflutningur voru og thjonustu,2009,6.2,history
+spa_2010_juni_spa,utflutningur voru og thjonustu,2010,0.7,forecast
+spa_2010_juni_spa,utflutningur voru og thjonustu,2011,1.8,extrapolation
+spa_2010_juni_spa,utflutningur voru og thjonustu,2012,2.4,extrapolation
+spa_2010_juni_spa,utflutningur voru og thjonustu,2013,3.6,extrapolation
+spa_2010_juni_spa,utflutningur voru og thjonustu,2014,3.2,extrapolation
+spa_2010_juni_spa,utflutningur voru og thjonustu,2015,3.0,extrapolation
+spa_2010_juni_spa,innflutningur voru og thjonustu,2009,-24.0,history
+spa_2010_juni_spa,innflutningur voru og thjonustu,2010,0.6,forecast
+spa_2010_juni_spa,innflutningur voru og thjonustu,2011,3.2,extrapolation
+spa_2010_juni_spa,innflutningur voru og thjonustu,2012,5.5,extrapolation
+spa_2010_juni_spa,innflutningur voru og thjonustu,2013,3.2,extrapolation
+spa_2010_juni_spa,innflutningur voru og thjonustu,2014,3.2,extrapolation
+spa_2010_juni_spa,innflutningur voru og thjonustu,2015,3.9,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2009,-6.5,history
+spa_2010_juni_spa,verg landsframleidsla,2010,-2.9,forecast
+spa_2010_juni_spa,verg landsframleidsla,2011,3.2,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2012,3.4,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2013,2.1,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2014,2.3,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2015,3.1,extrapolation
+spa_2010_juni_spa,vidskiptajofnudur,2009,-3.7,history
+spa_2010_juni_spa,vidskiptajofnudur,2010,0.3,forecast
+spa_2010_juni_spa,vidskiptajofnudur,2011,-1.0,extrapolation
+spa_2010_juni_spa,vidskiptajofnudur,2012,-2.3,extrapolation
+spa_2010_juni_spa,vidskiptajofnudur,2013,-1.3,extrapolation
+spa_2010_juni_spa,vidskiptajofnudur,2014,-4.8,extrapolation
+spa_2010_juni_spa,vidskiptajofnudur,2015,-5.4,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2009,12.0,history
+spa_2010_juni_spa,visitala neysluverds,2010,6.0,forecast
+spa_2010_juni_spa,visitala neysluverds,2011,3.5,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2012,2.5,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2013,2.5,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2014,2.6,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2015,2.6,extrapolation
+spa_2010_juni_spa,gengisvisitala,2009,34.2,history
+spa_2010_juni_spa,gengisvisitala,2010,-0.6,forecast
+spa_2010_juni_spa,gengisvisitala,2011,-0.6,extrapolation
+spa_2010_juni_spa,gengisvisitala,2012,-1.3,extrapolation
+spa_2010_juni_spa,gengisvisitala,2013,-0.2,extrapolation
+spa_2010_juni_spa,gengisvisitala,2014,-0.4,extrapolation
+spa_2010_juni_spa,gengisvisitala,2015,-1.1,extrapolation
+spa_2010_juni_spa,raungengi,2009,-18.5,history
+spa_2010_juni_spa,raungengi,2010,4.9,forecast
+spa_2010_juni_spa,raungengi,2011,2.6,extrapolation
+spa_2010_juni_spa,raungengi,2012,2.2,extrapolation
+spa_2010_juni_spa,raungengi,2013,1.1,extrapolation
+spa_2010_juni_spa,raungengi,2014,1.2,extrapolation
+spa_2010_juni_spa,raungengi,2015,1.3,extrapolation
+spa_2010_juni_spa,atvinnuleysi,2009,8.0,history
+spa_2010_juni_spa,atvinnuleysi,2010,9.1,forecast
+spa_2010_juni_spa,atvinnuleysi,2011,8.3,extrapolation
+spa_2010_juni_spa,atvinnuleysi,2012,6.3,extrapolation
+spa_2010_juni_spa,atvinnuleysi,2013,5.1,extrapolation
+spa_2010_juni_spa,atvinnuleysi,2014,4.8,extrapolation
+spa_2010_juni_spa,atvinnuleysi,2015,4.7,extrapolation
+spa_2010_juni_spa,launavisitala m.v. fast verdlag,2009,0.6,history
+spa_2010_juni_spa,launavisitala m.v. fast verdlag,2010,4.1,forecast
+spa_2010_juni_spa,launavisitala m.v. fast verdlag,2011,5.2,extrapolation
+spa_2010_juni_spa,launavisitala m.v. fast verdlag,2012,5.5,extrapolation
+spa_2010_juni_spa,launavisitala m.v. fast verdlag,2013,5.1,extrapolation
+spa_2010_juni_spa,launavisitala m.v. fast verdlag,2014,5.2,extrapolation
+spa_2010_juni_spa,launavisitala m.v. fast verdlag,2015,3.6,extrapolation
+spa_2010_juni_spa,hagvoxtur i helstu vidskiptalondum,2009,-3.7,history
+spa_2010_juni_spa,hagvoxtur i helstu vidskiptalondum,2010,1.6,forecast
+spa_2010_juni_spa,hagvoxtur i helstu vidskiptalondum,2011,2.1,extrapolation
+spa_2010_juni_spa,hagvoxtur i helstu vidskiptalondum,2012,2.5,extrapolation
+spa_2010_juni_spa,hagvoxtur i helstu vidskiptalondum,2013,2.6,extrapolation
+spa_2010_juni_spa,hagvoxtur i helstu vidskiptalondum,2014,2.5,extrapolation
+spa_2010_juni_spa,hagvoxtur i helstu vidskiptalondum,2015,2.4,extrapolation
+spa_2010_juni_spa,althjodleg verdbolga,2009,0.3,history
+spa_2010_juni_spa,althjodleg verdbolga,2010,1.4,forecast
+spa_2010_juni_spa,althjodleg verdbolga,2011,1.5,extrapolation
+spa_2010_juni_spa,althjodleg verdbolga,2012,1.6,extrapolation
+spa_2010_juni_spa,althjodleg verdbolga,2013,1.7,extrapolation
+spa_2010_juni_spa,althjodleg verdbolga,2014,1.9,extrapolation
+spa_2010_juni_spa,althjodleg verdbolga,2015,2.5,extrapolation
+spa_2010_juni_spa,verd utflutts als,2009,-35.8,history
+spa_2010_juni_spa,verd utflutts als,2010,21.3,forecast
+spa_2010_juni_spa,verd utflutts als,2011,5.7,extrapolation
+spa_2010_juni_spa,verd utflutts als,2012,3.4,extrapolation
+spa_2010_juni_spa,verd utflutts als,2013,2.9,extrapolation
+spa_2010_juni_spa,verd utflutts als,2014,2.5,extrapolation
+spa_2010_juni_spa,verd utflutts als,2015,2.1,extrapolation
+spa_2010_juni_spa,oliuverd,2009,-36.3,history
+spa_2010_juni_spa,oliuverd,2010,25.1,forecast
+spa_2010_juni_spa,oliuverd,2011,4.8,extrapolation
+spa_2010_juni_spa,oliuverd,2012,4.5,extrapolation
+spa_2010_juni_spa,oliuverd,2013,1.5,extrapolation
+spa_2010_juni_spa,oliuverd,2014,1.6,extrapolation
+spa_2010_juni_spa,oliuverd,2015,2.5,extrapolation

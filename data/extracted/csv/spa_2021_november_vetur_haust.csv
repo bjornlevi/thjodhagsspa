@@ -1,0 +1,169 @@
+pdf_name,label_key,year,value,type
+spa_2021_november_vetur_haust,einkaneysla,2020,-3.0,history
+spa_2021_november_vetur_haust,einkaneysla,2021,3.8,forecast
+spa_2021_november_vetur_haust,einkaneysla,2022,4.9,extrapolation
+spa_2021_november_vetur_haust,einkaneysla,2023,3.2,extrapolation
+spa_2021_november_vetur_haust,einkaneysla,2024,2.7,extrapolation
+spa_2021_november_vetur_haust,einkaneysla,2025,2.6,extrapolation
+spa_2021_november_vetur_haust,einkaneysla,2026,2.5,extrapolation
+spa_2021_november_vetur_haust,einkaneysla,2027,2.5,extrapolation
+spa_2021_november_vetur_haust,samneysla,2020,4.5,history
+spa_2021_november_vetur_haust,samneysla,2021,2.4,forecast
+spa_2021_november_vetur_haust,samneysla,2022,1.3,extrapolation
+spa_2021_november_vetur_haust,samneysla,2023,1.2,extrapolation
+spa_2021_november_vetur_haust,samneysla,2024,0.9,extrapolation
+spa_2021_november_vetur_haust,samneysla,2025,0.4,extrapolation
+spa_2021_november_vetur_haust,samneysla,2026,0.4,extrapolation
+spa_2021_november_vetur_haust,samneysla,2027,0.4,extrapolation
+spa_2021_november_vetur_haust,fjarmunamyndun,2020,-8.7,history
+spa_2021_november_vetur_haust,fjarmunamyndun,2021,11.9,forecast
+spa_2021_november_vetur_haust,fjarmunamyndun,2022,-3.2,extrapolation
+spa_2021_november_vetur_haust,fjarmunamyndun,2023,4.7,extrapolation
+spa_2021_november_vetur_haust,fjarmunamyndun,2024,1.5,extrapolation
+spa_2021_november_vetur_haust,fjarmunamyndun,2025,3.0,extrapolation
+spa_2021_november_vetur_haust,fjarmunamyndun,2026,3.4,extrapolation
+spa_2021_november_vetur_haust,fjarmunamyndun,2027,3.0,extrapolation
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2020,-14.1,history
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2021,19.4,forecast
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2022,-6.9,extrapolation
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2023,4.8,extrapolation
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2024,3.1,extrapolation
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2025,3.7,extrapolation
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2026,3.7,extrapolation
+spa_2021_november_vetur_haust,atvinnuvegafjarfesting,2027,3.1,extrapolation
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2020,1.2,history
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2021,-8.4,forecast
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2022,4.9,extrapolation
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2023,8.7,extrapolation
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2024,3.5,extrapolation
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2025,3.3,extrapolation
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2026,3.1,extrapolation
+spa_2021_november_vetur_haust,fjarfesting i ibudarhusnaedi,2027,3.2,extrapolation
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2020,-5.2,history
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2021,19.8,forecast
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2022,-1.4,extrapolation
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2023,-1.0,extrapolation
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2024,-6.8,extrapolation
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2025,0.4,extrapolation
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2026,2.6,extrapolation
+spa_2021_november_vetur_haust,fjarfesting hins opinbera,2027,2.6,extrapolation
+spa_2021_november_vetur_haust,thjodarutgjold alls,2020,-2.2,history
+spa_2021_november_vetur_haust,thjodarutgjold alls,2021,4.8,forecast
+spa_2021_november_vetur_haust,thjodarutgjold alls,2022,2.3,extrapolation
+spa_2021_november_vetur_haust,thjodarutgjold alls,2023,2.9,extrapolation
+spa_2021_november_vetur_haust,thjodarutgjold alls,2024,1.9,extrapolation
+spa_2021_november_vetur_haust,thjodarutgjold alls,2025,2.1,extrapolation
+spa_2021_november_vetur_haust,thjodarutgjold alls,2026,2.1,extrapolation
+spa_2021_november_vetur_haust,thjodarutgjold alls,2027,2.0,extrapolation
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2020,-30.2,history
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2021,14.9,forecast
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2022,18.9,extrapolation
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2023,6.0,extrapolation
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2024,4.6,extrapolation
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2025,3.2,extrapolation
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2026,2.4,extrapolation
+spa_2021_november_vetur_haust,utflutningur voru og thjonustu,2027,2.1,extrapolation
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2020,-22.5,history
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2021,17.4,forecast
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2022,10.9,extrapolation
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2023,6.5,extrapolation
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2024,4.0,extrapolation
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2025,2.9,extrapolation
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2026,2.2,extrapolation
+spa_2021_november_vetur_haust,innflutningur voru og thjonustu,2027,1.8,extrapolation
+spa_2021_november_vetur_haust,verg landsframleidsla,2020,-6.5,history
+spa_2021_november_vetur_haust,verg landsframleidsla,2021,3.9,forecast
+spa_2021_november_vetur_haust,verg landsframleidsla,2022,5.3,extrapolation
+spa_2021_november_vetur_haust,verg landsframleidsla,2023,2.8,extrapolation
+spa_2021_november_vetur_haust,verg landsframleidsla,2024,2.3,extrapolation
+spa_2021_november_vetur_haust,verg landsframleidsla,2025,2.3,extrapolation
+spa_2021_november_vetur_haust,verg landsframleidsla,2026,2.2,extrapolation
+spa_2021_november_vetur_haust,verg landsframleidsla,2027,2.2,extrapolation
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2020,-0.7,history
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2021,-0.7,forecast
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2022,3.3,extrapolation
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2023,2.9,extrapolation
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2024,3.0,extrapolation
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2025,2.9,extrapolation
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2026,3.0,extrapolation
+spa_2021_november_vetur_haust,voru- og thjonustujofnudur,2027,3.2,extrapolation
+spa_2021_november_vetur_haust,vidskiptajofnudur,2020,0.9,history
+spa_2021_november_vetur_haust,vidskiptajofnudur,2021,-0.1,forecast
+spa_2021_november_vetur_haust,vidskiptajofnudur,2022,3.9,extrapolation
+spa_2021_november_vetur_haust,vidskiptajofnudur,2023,3.4,extrapolation
+spa_2021_november_vetur_haust,vidskiptajofnudur,2024,3.3,extrapolation
+spa_2021_november_vetur_haust,vidskiptajofnudur,2025,3.1,extrapolation
+spa_2021_november_vetur_haust,vidskiptajofnudur,2026,3.2,extrapolation
+spa_2021_november_vetur_haust,vidskiptajofnudur,2027,3.3,extrapolation
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2020,2.941,history
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2021,3.235,forecast
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2022,3.565,extrapolation
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2023,3.755,extrapolation
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2024,3.932,extrapolation
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2025,4.116,extrapolation
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2026,4.321,extrapolation
+spa_2021_november_vetur_haust,vlf a verdlagi hvers ars,2027,4.532,extrapolation
+spa_2021_november_vetur_haust,visitala neysluverds,2020,2.8,history
+spa_2021_november_vetur_haust,visitala neysluverds,2021,4.4,forecast
+spa_2021_november_vetur_haust,visitala neysluverds,2022,3.3,extrapolation
+spa_2021_november_vetur_haust,visitala neysluverds,2023,2.6,extrapolation
+spa_2021_november_vetur_haust,visitala neysluverds,2024,2.5,extrapolation
+spa_2021_november_vetur_haust,visitala neysluverds,2025,2.5,extrapolation
+spa_2021_november_vetur_haust,visitala neysluverds,2026,2.5,extrapolation
+spa_2021_november_vetur_haust,visitala neysluverds,2027,2.5,extrapolation
+spa_2021_november_vetur_haust,gengisvisitala,2020,11.1,history
+spa_2021_november_vetur_haust,gengisvisitala,2021,-2.3,forecast
+spa_2021_november_vetur_haust,gengisvisitala,2022,-2.1,extrapolation
+spa_2021_november_vetur_haust,gengisvisitala,2023,-0.3,extrapolation
+spa_2021_november_vetur_haust,gengisvisitala,2024,0.0,extrapolation
+spa_2021_november_vetur_haust,gengisvisitala,2025,0.0,extrapolation
+spa_2021_november_vetur_haust,gengisvisitala,2026,0.0,extrapolation
+spa_2021_november_vetur_haust,gengisvisitala,2027,0.0,extrapolation
+spa_2021_november_vetur_haust,raungengi,2020,-7.9,history
+spa_2021_november_vetur_haust,raungengi,2021,4.1,forecast
+spa_2021_november_vetur_haust,raungengi,2022,3.4,extrapolation
+spa_2021_november_vetur_haust,raungengi,2023,1.1,extrapolation
+spa_2021_november_vetur_haust,raungengi,2024,0.6,extrapolation
+spa_2021_november_vetur_haust,raungengi,2025,0.6,extrapolation
+spa_2021_november_vetur_haust,raungengi,2026,0.6,extrapolation
+spa_2021_november_vetur_haust,raungengi,2027,0.5,extrapolation
+spa_2021_november_vetur_haust,atvinnuleysi,2020,6.4,history
+spa_2021_november_vetur_haust,atvinnuleysi,2021,6.5,forecast
+spa_2021_november_vetur_haust,atvinnuleysi,2022,5.3,extrapolation
+spa_2021_november_vetur_haust,atvinnuleysi,2023,4.8,extrapolation
+spa_2021_november_vetur_haust,atvinnuleysi,2024,4.5,extrapolation
+spa_2021_november_vetur_haust,atvinnuleysi,2025,4.2,extrapolation
+spa_2021_november_vetur_haust,atvinnuleysi,2026,4.1,extrapolation
+spa_2021_november_vetur_haust,atvinnuleysi,2027,4.0,extrapolation
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2020,3.4,history
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2021,3.4,forecast
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2022,1.5,extrapolation
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2023,1.5,extrapolation
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2024,1.7,extrapolation
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2025,1.7,extrapolation
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2026,1.7,extrapolation
+spa_2021_november_vetur_haust,launavisitala m.v. fast verdlag,2027,1.7,extrapolation
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2020,0.7,history
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2021,2.4,forecast
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2022,2.1,extrapolation
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2023,1.8,extrapolation
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2024,1.9,extrapolation
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2025,1.9,extrapolation
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2026,1.9,extrapolation
+spa_2021_november_vetur_haust,hagvoxtur i helstu vidskiptalondum,2027,1.9,extrapolation
+spa_2021_november_vetur_haust,verd utflutts als,2020,-10.1,history
+spa_2021_november_vetur_haust,verd utflutts als,2021,41.5,forecast
+spa_2021_november_vetur_haust,verd utflutts als,2022,19.0,extrapolation
+spa_2021_november_vetur_haust,verd utflutts als,2023,-7.0,extrapolation
+spa_2021_november_vetur_haust,verd utflutts als,2024,-6.4,extrapolation
+spa_2021_november_vetur_haust,verd utflutts als,2025,-5.8,extrapolation
+spa_2021_november_vetur_haust,verd utflutts als,2026,-1.6,extrapolation
+spa_2021_november_vetur_haust,verd utflutts als,2027,0.4,extrapolation
+spa_2021_november_vetur_haust,oliuverd,2020,-32.6,history
+spa_2021_november_vetur_haust,oliuverd,2021,64.8,forecast
+spa_2021_november_vetur_haust,oliuverd,2022,11.0,extrapolation
+spa_2021_november_vetur_haust,oliuverd,2023,-8.4,extrapolation
+spa_2021_november_vetur_haust,oliuverd,2024,-6.5,extrapolation
+spa_2021_november_vetur_haust,oliuverd,2025,-5.0,extrapolation
+spa_2021_november_vetur_haust,oliuverd,2026,-3.3,extrapolation
+spa_2021_november_vetur_haust,oliuverd,2027,-1.8,extrapolation

@@ -1,0 +1,17 @@
+pdf_name,label_raw,label_key,year,value,type
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2017,7.9,history
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2018,4.8,history
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2019,3.6,forecast
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2020,2.9,extrapolation
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2021,2.8,extrapolation
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2022,2.6,extrapolation
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2022,2.6,extrapolation
+spa_2019_februar_vetur_endurskodun,Einkaneysla Private final consumption,einkaneysla,2024,2.5,extrapolation
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2017,3.7,history
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2018,3.4,history
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2019,2.7,forecast
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2020,1.8,extrapolation
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2021,1.7,extrapolation
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2022,1.9,extrapolation
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2022,1.8,extrapolation
+spa_2019_februar_vetur_endurskodun,Samneysla Government final consumption,samneysla,2024,1.8,extrapolation

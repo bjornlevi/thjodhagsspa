@@ -1,0 +1,28 @@
+Tafla 2. Landsframleiðsla 2013–2018
+Table 2. Gross domestic product 2013–2018
+Volume growth from previous year (%) 20131 2014 2015 2016 2017 2018
+Einkaneysla Private final consumption 1,2 3,9 3,7 2,8 3,0 3,0
+Samneysla Government final consumption 1,3 1,2 0,5 1,7 1,9 1,8
+Fjármunamyndun Gross fixed capital formation -3,4 16,9 15,7 12,5 0,3 5,0
+Atvinnuvegafjárfesting Business investment -10,2 18,3 17,1 13,8 -2,7 3,2
+Fjárfesting í íbúðarhúsnæði Housing investment 10,8 24,1 20,3 15,5 10,8 9,0
+Fjárfesting hins opinbera Public investment 11,7 3,0 1,5 -0,4 -0,6 7,4
+Þjóðarútgjöld alls National final expenditure 0,1 5,2 4,8 4,3 2,2 3,0
+Útflutningur vöru og þjónustu Exports of goods and services 5,3 3,5 3,5 2,8 3,2 3,1
+Innflutningur vöru og þjónustu Import of goods and services -0,1 7,5 6,1 5,2 2,2 3,3
+Verg landsframleiðsla Gross domestic product 3,3 3,1 3,4 2,9 2,8 2,9
+Vöru- og þjónustujöfnuður (% af VLF) Goods and services balance (% of GDP) 7,4 5,6 4,6 3,4 3,9 3,8
+Viðskiptajöfnuður (% af VLF) Current account balance (% of GDP) 3,9 0,6 -0,8 -1,9 -1,1 -0,9
+Viðskiptajöfnuður án innlánsstofnana í slitameðferð (% VLF)2
+Current account balance excluding DMBs being wound up (% of GDP)2 6,2 1,5 -0,8 -1,9 -1,1 -0,9
+Vísitala neysluverðs Consumer price index 3,9 2,5 3,4 3,2 2,8 2,6
+Gengisvísitala Exchange rate index -1,4 -3,3 1,8 0,6 0,0 0,0
+Raungengi Real exchange rate 3,6 2,7 1,5 0,6 0,7 0,6
+Atvinnuleysi (% af vinnuafli) Unemployment rate (% of labour force) 4,4 3,8 3,5 3,5 3,4 3,4
+Launavísitala Wage rate index 5,7 5,2 6,1 4,8 5,0 4,7
+Alþjóðlegur hagvöxtur World GDP growth 0,8 2,0 2,1 2,2 2,1 2,1
+Alþjóðleg verðbólga World CPI inflation 1,7 1,7 1,5 1,9 2,0 2,0
+Verð útflutts áls Export price of aluminum -5,0 -1,5 5,9 4,2 3,6 3,2
+Olíuverð Oil price -0,9 -1,4 -4,7 -4,3 -3,0 -2,0
+2 Án innlánsstofnana í slitameðferð en með áætluðu uppgjöri þeirra frá 2014. Excluding Deposit Money Banks undergoing winding-up proceedings, but
+including estimated effects of the settlement of their estates from 2014 onwards.

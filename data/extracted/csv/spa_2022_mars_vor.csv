@@ -1,0 +1,148 @@
+pdf_name,label_key,year,value,type
+spa_2022_mars_vor,einkaneysla,2021,7.6,history
+spa_2022_mars_vor,einkaneysla,2022,4.2,forecast
+spa_2022_mars_vor,einkaneysla,2023,3.4,extrapolation
+spa_2022_mars_vor,einkaneysla,2024,3.0,extrapolation
+spa_2022_mars_vor,einkaneysla,2025,2.8,extrapolation
+spa_2022_mars_vor,einkaneysla,2026,2.6,extrapolation
+spa_2022_mars_vor,einkaneysla,2027,2.5,extrapolation
+spa_2022_mars_vor,samneysla,2021,1.8,history
+spa_2022_mars_vor,samneysla,2022,1.1,forecast
+spa_2022_mars_vor,samneysla,2023,1.5,extrapolation
+spa_2022_mars_vor,samneysla,2024,1.3,extrapolation
+spa_2022_mars_vor,samneysla,2025,0.8,extrapolation
+spa_2022_mars_vor,samneysla,2026,0.7,extrapolation
+spa_2022_mars_vor,samneysla,2027,0.9,extrapolation
+spa_2022_mars_vor,fjarmunamyndun,2021,13.6,history
+spa_2022_mars_vor,fjarmunamyndun,2022,5.0,forecast
+spa_2022_mars_vor,fjarmunamyndun,2023,0.9,extrapolation
+spa_2022_mars_vor,fjarmunamyndun,2024,1.6,extrapolation
+spa_2022_mars_vor,fjarmunamyndun,2025,2.7,extrapolation
+spa_2022_mars_vor,fjarmunamyndun,2026,2.6,extrapolation
+spa_2022_mars_vor,fjarmunamyndun,2027,2.4,extrapolation
+spa_2022_mars_vor,atvinnuvegafjarfesting,2021,23.1,history
+spa_2022_mars_vor,atvinnuvegafjarfesting,2022,6.1,forecast
+spa_2022_mars_vor,atvinnuvegafjarfesting,2023,-1.9,extrapolation
+spa_2022_mars_vor,atvinnuvegafjarfesting,2024,2.1,extrapolation
+spa_2022_mars_vor,atvinnuvegafjarfesting,2025,2.2,extrapolation
+spa_2022_mars_vor,atvinnuvegafjarfesting,2026,3.2,extrapolation
+spa_2022_mars_vor,atvinnuvegafjarfesting,2027,2.9,extrapolation
+spa_2022_mars_vor,fjarfesting i ibudarhusnaedi,2021,-4.4,history
+spa_2022_mars_vor,fjarfesting i ibudarhusnaedi,2022,6.8,forecast
+spa_2022_mars_vor,fjarfesting i ibudarhusnaedi,2023,9.0,extrapolation
+spa_2022_mars_vor,fjarfesting i ibudarhusnaedi,2024,3.7,extrapolation
+spa_2022_mars_vor,fjarfesting i ibudarhusnaedi,2025,3.4,extrapolation
+spa_2022_mars_vor,fjarfesting i ibudarhusnaedi,2026,3.0,extrapolation
+spa_2022_mars_vor,fjarfesting i ibudarhusnaedi,2027,3.1,extrapolation
+spa_2022_mars_vor,fjarfesting hins opinbera,2021,12.4,history
+spa_2022_mars_vor,fjarfesting hins opinbera,2022,-1.0,forecast
+spa_2022_mars_vor,fjarfesting hins opinbera,2023,-1.2,extrapolation
+spa_2022_mars_vor,fjarfesting hins opinbera,2024,-3.4,extrapolation
+spa_2022_mars_vor,fjarfesting hins opinbera,2025,3.4,extrapolation
+spa_2022_mars_vor,fjarfesting hins opinbera,2026,-0.1,extrapolation
+spa_2022_mars_vor,fjarfesting hins opinbera,2027,-0.7,extrapolation
+spa_2022_mars_vor,thjodarutgjold alls,2021,7.2,history
+spa_2022_mars_vor,thjodarutgjold alls,2022,3.5,forecast
+spa_2022_mars_vor,thjodarutgjold alls,2023,2.3,extrapolation
+spa_2022_mars_vor,thjodarutgjold alls,2024,2.3,extrapolation
+spa_2022_mars_vor,thjodarutgjold alls,2025,2.2,extrapolation
+spa_2022_mars_vor,thjodarutgjold alls,2026,2.1,extrapolation
+spa_2022_mars_vor,thjodarutgjold alls,2027,2.1,extrapolation
+spa_2022_mars_vor,utflutningur voru og thjonustu,2021,12.3,history
+spa_2022_mars_vor,utflutningur voru og thjonustu,2022,16.0,forecast
+spa_2022_mars_vor,utflutningur voru og thjonustu,2023,5.8,extrapolation
+spa_2022_mars_vor,utflutningur voru og thjonustu,2024,4.7,extrapolation
+spa_2022_mars_vor,utflutningur voru og thjonustu,2025,3.1,extrapolation
+spa_2022_mars_vor,utflutningur voru og thjonustu,2026,2.5,extrapolation
+spa_2022_mars_vor,utflutningur voru og thjonustu,2027,2.4,extrapolation
+spa_2022_mars_vor,innflutningur voru og thjonustu,2021,20.3,history
+spa_2022_mars_vor,innflutningur voru og thjonustu,2022,12.4,forecast
+spa_2022_mars_vor,innflutningur voru og thjonustu,2023,4.9,extrapolation
+spa_2022_mars_vor,innflutningur voru og thjonustu,2024,5.0,extrapolation
+spa_2022_mars_vor,innflutningur voru og thjonustu,2025,2.7,extrapolation
+spa_2022_mars_vor,innflutningur voru og thjonustu,2026,2.4,extrapolation
+spa_2022_mars_vor,innflutningur voru og thjonustu,2027,2.2,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2021,4.3,history
+spa_2022_mars_vor,verg landsframleidsla,2022,4.6,forecast
+spa_2022_mars_vor,verg landsframleidsla,2023,2.7,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2024,2.2,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2025,2.4,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2026,2.2,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2027,2.2,extrapolation
+spa_2022_mars_vor,voru- og thjonustujofnudur,2021,-2.1,history
+spa_2022_mars_vor,voru- og thjonustujofnudur,2022,0.1,forecast
+spa_2022_mars_vor,voru- og thjonustujofnudur,2023,0.3,extrapolation
+spa_2022_mars_vor,voru- og thjonustujofnudur,2024,0.5,extrapolation
+spa_2022_mars_vor,voru- og thjonustujofnudur,2025,0.6,extrapolation
+spa_2022_mars_vor,voru- og thjonustujofnudur,2026,0.5,extrapolation
+spa_2022_mars_vor,voru- og thjonustujofnudur,2027,0.6,extrapolation
+spa_2022_mars_vor,vidskiptajofnudur,2021,-2.8,history
+spa_2022_mars_vor,vidskiptajofnudur,2022,0.0,forecast
+spa_2022_mars_vor,vidskiptajofnudur,2023,0.0,extrapolation
+spa_2022_mars_vor,vidskiptajofnudur,2024,0.1,extrapolation
+spa_2022_mars_vor,vidskiptajofnudur,2025,0.0,extrapolation
+spa_2022_mars_vor,vidskiptajofnudur,2026,-0.1,extrapolation
+spa_2022_mars_vor,vidskiptajofnudur,2027,-0.1,extrapolation
+spa_2022_mars_vor,vlf a verdlagi hvers ars,2021,3.233,history
+spa_2022_mars_vor,vlf a verdlagi hvers ars,2022,3.604,forecast
+spa_2022_mars_vor,vlf a verdlagi hvers ars,2023,3.831,extrapolation
+spa_2022_mars_vor,vlf a verdlagi hvers ars,2024,4.029,extrapolation
+spa_2022_mars_vor,vlf a verdlagi hvers ars,2025,4.231,extrapolation
+spa_2022_mars_vor,vlf a verdlagi hvers ars,2026,4.429,extrapolation
+spa_2022_mars_vor,vlf a verdlagi hvers ars,2027,4.642,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2021,4.4,history
+spa_2022_mars_vor,visitala neysluverds,2022,5.9,forecast
+spa_2022_mars_vor,visitala neysluverds,2023,3.5,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2024,2.6,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2025,2.5,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2026,2.5,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2027,2.5,extrapolation
+spa_2022_mars_vor,gengisvisitala,2021,-2.4,history
+spa_2022_mars_vor,gengisvisitala,2022,-3.9,forecast
+spa_2022_mars_vor,gengisvisitala,2023,-0.4,extrapolation
+spa_2022_mars_vor,gengisvisitala,2024,0.0,extrapolation
+spa_2022_mars_vor,gengisvisitala,2025,0.0,extrapolation
+spa_2022_mars_vor,gengisvisitala,2026,0.0,extrapolation
+spa_2022_mars_vor,gengisvisitala,2027,0.0,extrapolation
+spa_2022_mars_vor,raungengi,2021,4.1,history
+spa_2022_mars_vor,raungengi,2022,5.2,forecast
+spa_2022_mars_vor,raungengi,2023,2.2,extrapolation
+spa_2022_mars_vor,raungengi,2024,0.6,extrapolation
+spa_2022_mars_vor,raungengi,2025,0.6,extrapolation
+spa_2022_mars_vor,raungengi,2026,0.6,extrapolation
+spa_2022_mars_vor,raungengi,2027,0.6,extrapolation
+spa_2022_mars_vor,atvinnuleysi,2021,6.0,history
+spa_2022_mars_vor,atvinnuleysi,2022,4.3,forecast
+spa_2022_mars_vor,atvinnuleysi,2023,4.1,extrapolation
+spa_2022_mars_vor,atvinnuleysi,2024,4.0,extrapolation
+spa_2022_mars_vor,atvinnuleysi,2025,4.0,extrapolation
+spa_2022_mars_vor,atvinnuleysi,2026,3.9,extrapolation
+spa_2022_mars_vor,atvinnuleysi,2027,3.9,extrapolation
+spa_2022_mars_vor,launavisitala m.v. fast verdlag,2021,3.7,history
+spa_2022_mars_vor,launavisitala m.v. fast verdlag,2022,1.0,forecast
+spa_2022_mars_vor,launavisitala m.v. fast verdlag,2023,1.4,extrapolation
+spa_2022_mars_vor,launavisitala m.v. fast verdlag,2024,1.6,extrapolation
+spa_2022_mars_vor,launavisitala m.v. fast verdlag,2025,1.7,extrapolation
+spa_2022_mars_vor,launavisitala m.v. fast verdlag,2026,1.6,extrapolation
+spa_2022_mars_vor,launavisitala m.v. fast verdlag,2027,1.7,extrapolation
+spa_2022_mars_vor,hagvoxtur i helstu vidskiptalondum,2021,2.9,history
+spa_2022_mars_vor,hagvoxtur i helstu vidskiptalondum,2022,4.2,forecast
+spa_2022_mars_vor,hagvoxtur i helstu vidskiptalondum,2023,1.9,extrapolation
+spa_2022_mars_vor,hagvoxtur i helstu vidskiptalondum,2024,1.9,extrapolation
+spa_2022_mars_vor,hagvoxtur i helstu vidskiptalondum,2025,1.9,extrapolation
+spa_2022_mars_vor,hagvoxtur i helstu vidskiptalondum,2026,1.9,extrapolation
+spa_2022_mars_vor,hagvoxtur i helstu vidskiptalondum,2027,1.9,extrapolation
+spa_2022_mars_vor,verd utflutts als,2021,44.2,history
+spa_2022_mars_vor,verd utflutts als,2022,34.5,forecast
+spa_2022_mars_vor,verd utflutts als,2023,-3.3,extrapolation
+spa_2022_mars_vor,verd utflutts als,2024,-7.4,extrapolation
+spa_2022_mars_vor,verd utflutts als,2025,-7.0,extrapolation
+spa_2022_mars_vor,verd utflutts als,2026,-6.6,extrapolation
+spa_2022_mars_vor,verd utflutts als,2027,-3.6,extrapolation
+spa_2022_mars_vor,oliuverd,2021,63.7,history
+spa_2022_mars_vor,oliuverd,2022,38.1,forecast
+spa_2022_mars_vor,oliuverd,2023,-15.2,extrapolation
+spa_2022_mars_vor,oliuverd,2024,-10.9,extrapolation
+spa_2022_mars_vor,oliuverd,2025,-7.4,extrapolation
+spa_2022_mars_vor,oliuverd,2026,-5.4,extrapolation
+spa_2022_mars_vor,oliuverd,2027,-3.9,extrapolation

@@ -1,0 +1,28 @@
+Tafla 2. Landsframleiðsla 2013–2018
+Table 2. Gross domestic product 2013–2018
+Volume growth from previous year (%) 20131 2014 2015 2016 2017 2018
+Einkaneysla Private final consumption 0,8 3,9 4,0 3,2 3,1 3,0
+Samneysla Government final consumption 0,8 1,8 1,4 1,6 1,4 1,3
+Fjármunamyndun Gross fixed capital formation -2,2 14,0 18,7 14,6 0,1 2,0
+Atvinnuvegafjárfesting Business investment -8,6 12,7 22,2 16,7 -2,9 0,3
+Fjárfesting í íbúðarhúsnæði Housing investment 10,8 25,2 20,9 17,0 13,0 9,7
+Fjárfesting hins opinbera Public investment 12,5 9,0 2,0 1,5 -2,0 -1,0
+Þjóðarútgjöld alls National final expenditure -0,3 4,7 5,6 5,1 2,1 2,4
+Útflutningur vöru og þjónustu Exports of goods and services 6,9 3,9 2,8 2,8 3,6 3,4
+Innflutningur vöru og þjónustu Import of goods and services 0,4 8,1 7,4 7,1 2,8 2,9
+Verg landsframleiðsla Gross domestic product 3,5 2,7 3,3 2,9 2,5 2,6
+Vöru- og þjónustujöfnuður (% af VLF) Goods and services balance (% of GDP) 8,3 6,7 5,0 3,1 3,5 3,7
+Viðskiptajöfnuður (% af VLF) Current account balance (% of GDP) 5,6 3,5 0,9 -0,7 0,1 0,6
+Viðskiptajöfnuður án innlánsstofnana í slitameðferð (% VLF)2
+Current account balance excluding DMBs being wound up (% of GDP)2 7,3 4,5 0,9 -0,7 0,1 0,6
+Vísitala neysluverðs Consumer price index 3,9 2,2 2,7 3,0 2,7 2,6
+Gengisvísitala Exchange rate index -1,4 -5,4 0,0 0,0 0,0 0,0
+Raungengi Real exchange rate 3,8 6,4 1,0 1,1 0,7 0,6
+Atvinnuleysi (% af vinnuafli) Unemployment rate (% of labour force) 4,4 3,7 3,2 3,1 3,0 3,0
+Launavísitala Wage rate index 5,7 5,6 6,0 4,7 4,9 5,0
+Alþjóðlegur hagvöxtur World GDP growth 0,8 1,7 1,9 2,2 2,2 2,2
+Alþjóðleg verðbólga World CPI inflation 1,6 1,4 1,7 1,9 2,0 2,0
+Verð útflutts áls Export price of aluminum -4,8 3,0 11,4 2,3 2,5 2,5
+Olíuverð Oil price -0,9 -5,0 -14,5 1,3 -0,1 -0,4
+2 Án innlánsstofnana í slitameðferð en með áætluðu uppgjöri þeirra frá 2014. Excluding Deposit Money Banks undergoing winding-up proceedings, but
+including estimated effects of the settlement of their estates from 2014 onwards.

@@ -1,0 +1,169 @@
+pdf_name,label_key,year,value,type
+spa_2019_november_vetur,einkaneysla,2018,4.7,history
+spa_2019_november_vetur,einkaneysla,2019,1.8,forecast
+spa_2019_november_vetur,einkaneysla,2020,2.4,extrapolation
+spa_2019_november_vetur,einkaneysla,2021,2.7,extrapolation
+spa_2019_november_vetur,einkaneysla,2022,2.6,extrapolation
+spa_2019_november_vetur,einkaneysla,2023,2.6,extrapolation
+spa_2019_november_vetur,einkaneysla,2024,2.5,extrapolation
+spa_2019_november_vetur,einkaneysla,2025,2.5,extrapolation
+spa_2019_november_vetur,samneysla,2018,3.5,history
+spa_2019_november_vetur,samneysla,2019,2.5,forecast
+spa_2019_november_vetur,samneysla,2020,2.4,extrapolation
+spa_2019_november_vetur,samneysla,2021,1.6,extrapolation
+spa_2019_november_vetur,samneysla,2022,1.8,extrapolation
+spa_2019_november_vetur,samneysla,2023,2.4,extrapolation
+spa_2019_november_vetur,samneysla,2024,2.5,extrapolation
+spa_2019_november_vetur,samneysla,2025,2.5,extrapolation
+spa_2019_november_vetur,fjarmunamyndun,2018,4.0,history
+spa_2019_november_vetur,fjarmunamyndun,2019,-9.1,forecast
+spa_2019_november_vetur,fjarmunamyndun,2020,3.7,extrapolation
+spa_2019_november_vetur,fjarmunamyndun,2021,4.4,extrapolation
+spa_2019_november_vetur,fjarmunamyndun,2022,2.7,extrapolation
+spa_2019_november_vetur,fjarmunamyndun,2023,2.8,extrapolation
+spa_2019_november_vetur,fjarmunamyndun,2024,2.9,extrapolation
+spa_2019_november_vetur,fjarmunamyndun,2025,3.8,extrapolation
+spa_2019_november_vetur,atvinnuvegafjarfesting,2018,-4.1,history
+spa_2019_november_vetur,atvinnuvegafjarfesting,2019,-15.2,forecast
+spa_2019_november_vetur,atvinnuvegafjarfesting,2020,3.5,extrapolation
+spa_2019_november_vetur,atvinnuvegafjarfesting,2021,4.1,extrapolation
+spa_2019_november_vetur,atvinnuvegafjarfesting,2022,3.3,extrapolation
+spa_2019_november_vetur,atvinnuvegafjarfesting,2023,3.4,extrapolation
+spa_2019_november_vetur,atvinnuvegafjarfesting,2024,4.4,extrapolation
+spa_2019_november_vetur,atvinnuvegafjarfesting,2025,4.2,extrapolation
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2018,16.2,history
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2019,17.0,forecast
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2020,7.8,extrapolation
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2021,4.5,extrapolation
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2022,5.0,extrapolation
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2023,3.9,extrapolation
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2024,3.4,extrapolation
+spa_2019_november_vetur,fjarfesting i ibudarhusnaedi,2025,3.4,extrapolation
+spa_2019_november_vetur,fjarfesting hins opinbera,2018,28.3,history
+spa_2019_november_vetur,fjarfesting hins opinbera,2019,-11.5,forecast
+spa_2019_november_vetur,fjarfesting hins opinbera,2020,4.5,extrapolation
+spa_2019_november_vetur,fjarfesting hins opinbera,2021,7.5,extrapolation
+spa_2019_november_vetur,fjarfesting hins opinbera,2022,-2.6,extrapolation
+spa_2019_november_vetur,fjarfesting hins opinbera,2023,-1.2,extrapolation
+spa_2019_november_vetur,fjarfesting hins opinbera,2024,-3.9,extrapolation
+spa_2019_november_vetur,fjarfesting hins opinbera,2025,2.4,extrapolation
+spa_2019_november_vetur,thjodarutgjold alls,2018,4.6,history
+spa_2019_november_vetur,thjodarutgjold alls,2019,-0.6,forecast
+spa_2019_november_vetur,thjodarutgjold alls,2020,2.6,extrapolation
+spa_2019_november_vetur,thjodarutgjold alls,2021,2.8,extrapolation
+spa_2019_november_vetur,thjodarutgjold alls,2022,2.5,extrapolation
+spa_2019_november_vetur,thjodarutgjold alls,2023,2.6,extrapolation
+spa_2019_november_vetur,thjodarutgjold alls,2024,2.6,extrapolation
+spa_2019_november_vetur,thjodarutgjold alls,2025,2.8,extrapolation
+spa_2019_november_vetur,utflutningur voru og thjonustu,2018,1.7,history
+spa_2019_november_vetur,utflutningur voru og thjonustu,2019,-5.5,forecast
+spa_2019_november_vetur,utflutningur voru og thjonustu,2020,1.7,extrapolation
+spa_2019_november_vetur,utflutningur voru og thjonustu,2021,2.6,extrapolation
+spa_2019_november_vetur,utflutningur voru og thjonustu,2022,2.8,extrapolation
+spa_2019_november_vetur,utflutningur voru og thjonustu,2023,2.7,extrapolation
+spa_2019_november_vetur,utflutningur voru og thjonustu,2024,2.6,extrapolation
+spa_2019_november_vetur,utflutningur voru og thjonustu,2025,2.5,extrapolation
+spa_2019_november_vetur,innflutningur voru og thjonustu,2018,0.8,history
+spa_2019_november_vetur,innflutningur voru og thjonustu,2019,-6.7,forecast
+spa_2019_november_vetur,innflutningur voru og thjonustu,2020,3.7,extrapolation
+spa_2019_november_vetur,innflutningur voru og thjonustu,2021,2.9,extrapolation
+spa_2019_november_vetur,innflutningur voru og thjonustu,2022,2.5,extrapolation
+spa_2019_november_vetur,innflutningur voru og thjonustu,2023,2.7,extrapolation
+spa_2019_november_vetur,innflutningur voru og thjonustu,2024,2.8,extrapolation
+spa_2019_november_vetur,innflutningur voru og thjonustu,2025,3.1,extrapolation
+spa_2019_november_vetur,verg landsframleidsla,2018,4.8,history
+spa_2019_november_vetur,verg landsframleidsla,2019,-0.2,forecast
+spa_2019_november_vetur,verg landsframleidsla,2020,1.7,extrapolation
+spa_2019_november_vetur,verg landsframleidsla,2021,2.7,extrapolation
+spa_2019_november_vetur,verg landsframleidsla,2022,2.6,extrapolation
+spa_2019_november_vetur,verg landsframleidsla,2023,2.6,extrapolation
+spa_2019_november_vetur,verg landsframleidsla,2024,2.5,extrapolation
+spa_2019_november_vetur,verg landsframleidsla,2025,2.5,extrapolation
+spa_2019_november_vetur,voru- og thjonustujofnudur,2018,3.0,history
+spa_2019_november_vetur,voru- og thjonustujofnudur,2019,3.1,forecast
+spa_2019_november_vetur,voru- og thjonustujofnudur,2020,2.1,extrapolation
+spa_2019_november_vetur,voru- og thjonustujofnudur,2021,2.1,extrapolation
+spa_2019_november_vetur,voru- og thjonustujofnudur,2022,2.2,extrapolation
+spa_2019_november_vetur,voru- og thjonustujofnudur,2023,2.2,extrapolation
+spa_2019_november_vetur,voru- og thjonustujofnudur,2024,2.1,extrapolation
+spa_2019_november_vetur,voru- og thjonustujofnudur,2025,1.9,extrapolation
+spa_2019_november_vetur,vidskiptajofnudur,2018,2.8,history
+spa_2019_november_vetur,vidskiptajofnudur,2019,2.9,forecast
+spa_2019_november_vetur,vidskiptajofnudur,2020,1.4,extrapolation
+spa_2019_november_vetur,vidskiptajofnudur,2021,1.4,extrapolation
+spa_2019_november_vetur,vidskiptajofnudur,2022,1.5,extrapolation
+spa_2019_november_vetur,vidskiptajofnudur,2023,1.4,extrapolation
+spa_2019_november_vetur,vidskiptajofnudur,2024,1.3,extrapolation
+spa_2019_november_vetur,vidskiptajofnudur,2025,1.1,extrapolation
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2018,2.812,history
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2019,2.915,forecast
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2020,3.073,extrapolation
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2021,3.257,extrapolation
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2022,3.442,extrapolation
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2023,3.63,extrapolation
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2024,3.817,extrapolation
+spa_2019_november_vetur,vlf a verdlagi hvers ars,2025,4.017,extrapolation
+spa_2019_november_vetur,visitala neysluverds,2018,2.7,history
+spa_2019_november_vetur,visitala neysluverds,2019,3.0,forecast
+spa_2019_november_vetur,visitala neysluverds,2020,2.6,extrapolation
+spa_2019_november_vetur,visitala neysluverds,2021,2.5,extrapolation
+spa_2019_november_vetur,visitala neysluverds,2022,2.5,extrapolation
+spa_2019_november_vetur,visitala neysluverds,2023,2.5,extrapolation
+spa_2019_november_vetur,visitala neysluverds,2024,2.5,extrapolation
+spa_2019_november_vetur,visitala neysluverds,2025,2.5,extrapolation
+spa_2019_november_vetur,gengisvisitala,2018,3.9,history
+spa_2019_november_vetur,gengisvisitala,2019,8.7,forecast
+spa_2019_november_vetur,gengisvisitala,2020,0.0,extrapolation
+spa_2019_november_vetur,gengisvisitala,2021,0.0,extrapolation
+spa_2019_november_vetur,gengisvisitala,2022,0.0,extrapolation
+spa_2019_november_vetur,gengisvisitala,2023,0.0,extrapolation
+spa_2019_november_vetur,gengisvisitala,2024,0.0,extrapolation
+spa_2019_november_vetur,gengisvisitala,2025,0.0,extrapolation
+spa_2019_november_vetur,raungengi,2018,-2.9,history
+spa_2019_november_vetur,raungengi,2019,-6.8,forecast
+spa_2019_november_vetur,raungengi,2020,0.9,extrapolation
+spa_2019_november_vetur,raungengi,2021,0.6,extrapolation
+spa_2019_november_vetur,raungengi,2022,0.5,extrapolation
+spa_2019_november_vetur,raungengi,2023,0.5,extrapolation
+spa_2019_november_vetur,raungengi,2024,0.4,extrapolation
+spa_2019_november_vetur,raungengi,2025,0.5,extrapolation
+spa_2019_november_vetur,atvinnuleysi,2018,2.7,history
+spa_2019_november_vetur,atvinnuleysi,2019,3.8,forecast
+spa_2019_november_vetur,atvinnuleysi,2020,3.9,extrapolation
+spa_2019_november_vetur,atvinnuleysi,2021,3.9,extrapolation
+spa_2019_november_vetur,atvinnuleysi,2022,4.0,extrapolation
+spa_2019_november_vetur,atvinnuleysi,2023,4.0,extrapolation
+spa_2019_november_vetur,atvinnuleysi,2024,4.0,extrapolation
+spa_2019_november_vetur,atvinnuleysi,2025,4.0,extrapolation
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2018,3.7,history
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2019,1.7,forecast
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2020,2.5,extrapolation
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2021,2.7,extrapolation
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2022,2.4,extrapolation
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2023,1.7,extrapolation
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2024,1.7,extrapolation
+spa_2019_november_vetur,launavisitala m.v. fast verdlag,2025,1.7,extrapolation
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2018,2.0,history
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2019,1.6,forecast
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2020,1.7,extrapolation
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2021,1.8,extrapolation
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2022,1.9,extrapolation
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2023,2.0,extrapolation
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2024,2.0,extrapolation
+spa_2019_november_vetur,hagvoxtur i helstu vidskiptalondum,2025,2.0,extrapolation
+spa_2019_november_vetur,verd utflutts als,2018,13.3,history
+spa_2019_november_vetur,verd utflutts als,2019,-12.5,forecast
+spa_2019_november_vetur,verd utflutts als,2020,-0.3,extrapolation
+spa_2019_november_vetur,verd utflutts als,2021,4.1,extrapolation
+spa_2019_november_vetur,verd utflutts als,2022,4.0,extrapolation
+spa_2019_november_vetur,verd utflutts als,2023,3.8,extrapolation
+spa_2019_november_vetur,verd utflutts als,2024,3.3,extrapolation
+spa_2019_november_vetur,verd utflutts als,2025,2.5,extrapolation
+spa_2019_november_vetur,oliuverd,2018,30.4,history
+spa_2019_november_vetur,oliuverd,2019,-10.8,forecast
+spa_2019_november_vetur,oliuverd,2020,-1.5,extrapolation
+spa_2019_november_vetur,oliuverd,2021,0.5,extrapolation
+spa_2019_november_vetur,oliuverd,2022,0.8,extrapolation
+spa_2019_november_vetur,oliuverd,2023,1.6,extrapolation
+spa_2019_november_vetur,oliuverd,2024,2.3,extrapolation
+spa_2019_november_vetur,oliuverd,2025,2.0,extrapolation

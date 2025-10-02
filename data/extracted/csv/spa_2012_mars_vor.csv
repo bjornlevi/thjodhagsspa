@@ -1,0 +1,148 @@
+pdf_name,label_key,year,value,type
+spa_2012_mars_vor,einkaneysla,2011,4.0,history
+spa_2012_mars_vor,einkaneysla,2012,3.1,forecast
+spa_2012_mars_vor,einkaneysla,2013,2.4,extrapolation
+spa_2012_mars_vor,einkaneysla,2014,3.1,extrapolation
+spa_2012_mars_vor,einkaneysla,2015,2.9,extrapolation
+spa_2012_mars_vor,einkaneysla,2016,2.8,extrapolation
+spa_2012_mars_vor,einkaneysla,2017,3.2,extrapolation
+spa_2012_mars_vor,samneysla,2011,-0.6,history
+spa_2012_mars_vor,samneysla,2012,-0.3,forecast
+spa_2012_mars_vor,samneysla,2013,0.3,extrapolation
+spa_2012_mars_vor,samneysla,2014,0.1,extrapolation
+spa_2012_mars_vor,samneysla,2015,0.7,extrapolation
+spa_2012_mars_vor,samneysla,2016,1.0,extrapolation
+spa_2012_mars_vor,samneysla,2017,1.0,extrapolation
+spa_2012_mars_vor,fjarmunamyndun,2011,13.4,history
+spa_2012_mars_vor,fjarmunamyndun,2012,10.5,forecast
+spa_2012_mars_vor,fjarmunamyndun,2013,8.4,extrapolation
+spa_2012_mars_vor,fjarmunamyndun,2014,9.9,extrapolation
+spa_2012_mars_vor,fjarmunamyndun,2015,-1.5,extrapolation
+spa_2012_mars_vor,fjarmunamyndun,2016,6.0,extrapolation
+spa_2012_mars_vor,fjarmunamyndun,2017,8.1,extrapolation
+spa_2012_mars_vor,atvinnuvegafjarfesting,2011,25.8,history
+spa_2012_mars_vor,atvinnuvegafjarfesting,2012,11.8,forecast
+spa_2012_mars_vor,atvinnuvegafjarfesting,2013,6.3,extrapolation
+spa_2012_mars_vor,atvinnuvegafjarfesting,2014,9.4,extrapolation
+spa_2012_mars_vor,atvinnuvegafjarfesting,2015,-8.8,extrapolation
+spa_2012_mars_vor,atvinnuvegafjarfesting,2016,1.9,extrapolation
+spa_2012_mars_vor,atvinnuvegafjarfesting,2017,8.2,extrapolation
+spa_2012_mars_vor,fjarfesting i ibudarhusnaedi,2011,8.6,history
+spa_2012_mars_vor,fjarfesting i ibudarhusnaedi,2012,15.8,forecast
+spa_2012_mars_vor,fjarfesting i ibudarhusnaedi,2013,19.5,extrapolation
+spa_2012_mars_vor,fjarfesting i ibudarhusnaedi,2014,14.6,extrapolation
+spa_2012_mars_vor,fjarfesting i ibudarhusnaedi,2015,13.9,extrapolation
+spa_2012_mars_vor,fjarfesting i ibudarhusnaedi,2016,12.2,extrapolation
+spa_2012_mars_vor,fjarfesting i ibudarhusnaedi,2017,9.9,extrapolation
+spa_2012_mars_vor,fjarfesting hins opinbera,2011,-17.6,history
+spa_2012_mars_vor,fjarfesting hins opinbera,2012,-4.0,forecast
+spa_2012_mars_vor,fjarfesting hins opinbera,2013,5.0,extrapolation
+spa_2012_mars_vor,fjarfesting hins opinbera,2014,5.0,extrapolation
+spa_2012_mars_vor,fjarfesting hins opinbera,2015,14.6,extrapolation
+spa_2012_mars_vor,fjarfesting hins opinbera,2016,14.6,extrapolation
+spa_2012_mars_vor,fjarfesting hins opinbera,2017,4.9,extrapolation
+spa_2012_mars_vor,thjodarutgjold alls,2011,4.7,history
+spa_2012_mars_vor,thjodarutgjold alls,2012,3.1,forecast
+spa_2012_mars_vor,thjodarutgjold alls,2013,2.7,extrapolation
+spa_2012_mars_vor,thjodarutgjold alls,2014,3.6,extrapolation
+spa_2012_mars_vor,thjodarutgjold alls,2015,1.6,extrapolation
+spa_2012_mars_vor,thjodarutgjold alls,2016,2.9,extrapolation
+spa_2012_mars_vor,thjodarutgjold alls,2017,3.6,extrapolation
+spa_2012_mars_vor,utflutningur voru og thjonustu,2011,3.2,history
+spa_2012_mars_vor,utflutningur voru og thjonustu,2012,2.9,forecast
+spa_2012_mars_vor,utflutningur voru og thjonustu,2013,2.5,extrapolation
+spa_2012_mars_vor,utflutningur voru og thjonustu,2014,1.8,extrapolation
+spa_2012_mars_vor,utflutningur voru og thjonustu,2015,3.8,extrapolation
+spa_2012_mars_vor,utflutningur voru og thjonustu,2016,2.5,extrapolation
+spa_2012_mars_vor,utflutningur voru og thjonustu,2017,2.7,extrapolation
+spa_2012_mars_vor,innflutningur voru og thjonustu,2011,6.4,history
+spa_2012_mars_vor,innflutningur voru og thjonustu,2012,3.9,forecast
+spa_2012_mars_vor,innflutningur voru og thjonustu,2013,2.9,extrapolation
+spa_2012_mars_vor,innflutningur voru og thjonustu,2014,3.2,extrapolation
+spa_2012_mars_vor,innflutningur voru og thjonustu,2015,1.7,extrapolation
+spa_2012_mars_vor,innflutningur voru og thjonustu,2016,2.8,extrapolation
+spa_2012_mars_vor,innflutningur voru og thjonustu,2017,4.4,extrapolation
+spa_2012_mars_vor,verg landsframleidsla,2011,3.1,history
+spa_2012_mars_vor,verg landsframleidsla,2012,2.6,forecast
+spa_2012_mars_vor,verg landsframleidsla,2013,2.5,extrapolation
+spa_2012_mars_vor,verg landsframleidsla,2014,2.8,extrapolation
+spa_2012_mars_vor,verg landsframleidsla,2015,2.8,extrapolation
+spa_2012_mars_vor,verg landsframleidsla,2016,2.7,extrapolation
+spa_2012_mars_vor,verg landsframleidsla,2017,2.7,extrapolation
+spa_2012_mars_vor,voru- og thjonustujofnudur,2011,8.2,history
+spa_2012_mars_vor,voru- og thjonustujofnudur,2012,7.7,forecast
+spa_2012_mars_vor,voru- og thjonustujofnudur,2013,7.8,extrapolation
+spa_2012_mars_vor,voru- og thjonustujofnudur,2014,7.0,extrapolation
+spa_2012_mars_vor,voru- og thjonustujofnudur,2015,8.0,extrapolation
+spa_2012_mars_vor,voru- og thjonustujofnudur,2016,7.8,extrapolation
+spa_2012_mars_vor,voru- og thjonustujofnudur,2017,7.1,extrapolation
+spa_2012_mars_vor,vidskiptajofnudur,2011,-7.1,history
+spa_2012_mars_vor,vidskiptajofnudur,2012,-4.1,forecast
+spa_2012_mars_vor,vidskiptajofnudur,2013,-0.1,extrapolation
+spa_2012_mars_vor,vidskiptajofnudur,2014,-0.9,extrapolation
+spa_2012_mars_vor,vidskiptajofnudur,2015,0.0,extrapolation
+spa_2012_mars_vor,vidskiptajofnudur,2016,-1.5,extrapolation
+spa_2012_mars_vor,vidskiptajofnudur,2017,-2.6,extrapolation
+spa_2012_mars_vor,visitala neysluverds,2011,4.0,history
+spa_2012_mars_vor,visitala neysluverds,2012,4.8,forecast
+spa_2012_mars_vor,visitala neysluverds,2013,3.4,extrapolation
+spa_2012_mars_vor,visitala neysluverds,2014,2.5,extrapolation
+spa_2012_mars_vor,visitala neysluverds,2015,2.5,extrapolation
+spa_2012_mars_vor,visitala neysluverds,2016,2.5,extrapolation
+spa_2012_mars_vor,visitala neysluverds,2017,2.5,extrapolation
+spa_2012_mars_vor,gengisvisitala,2011,0.1,history
+spa_2012_mars_vor,gengisvisitala,2012,2.8,forecast
+spa_2012_mars_vor,gengisvisitala,2013,0.4,extrapolation
+spa_2012_mars_vor,gengisvisitala,2014,-0.3,extrapolation
+spa_2012_mars_vor,gengisvisitala,2015,-0.4,extrapolation
+spa_2012_mars_vor,gengisvisitala,2016,-0.2,extrapolation
+spa_2012_mars_vor,gengisvisitala,2017,0.2,extrapolation
+spa_2012_mars_vor,raungengi,2011,0.9,history
+spa_2012_mars_vor,raungengi,2012,-0.7,forecast
+spa_2012_mars_vor,raungengi,2013,0.7,extrapolation
+spa_2012_mars_vor,raungengi,2014,0.8,extrapolation
+spa_2012_mars_vor,raungengi,2015,0.6,extrapolation
+spa_2012_mars_vor,raungengi,2016,0.2,extrapolation
+spa_2012_mars_vor,raungengi,2017,-0.2,extrapolation
+spa_2012_mars_vor,atvinnuleysi,2011,7.4,history
+spa_2012_mars_vor,atvinnuleysi,2012,6.1,forecast
+spa_2012_mars_vor,atvinnuleysi,2013,5.5,extrapolation
+spa_2012_mars_vor,atvinnuleysi,2014,5.2,extrapolation
+spa_2012_mars_vor,atvinnuleysi,2015,4.6,extrapolation
+spa_2012_mars_vor,atvinnuleysi,2016,4.1,extrapolation
+spa_2012_mars_vor,atvinnuleysi,2017,3.7,extrapolation
+spa_2012_mars_vor,launavisitala m.v. fast verdlag,2011,6.8,history
+spa_2012_mars_vor,launavisitala m.v. fast verdlag,2012,7.2,forecast
+spa_2012_mars_vor,launavisitala m.v. fast verdlag,2013,4.6,extrapolation
+spa_2012_mars_vor,launavisitala m.v. fast verdlag,2014,5.4,extrapolation
+spa_2012_mars_vor,launavisitala m.v. fast verdlag,2015,4.3,extrapolation
+spa_2012_mars_vor,launavisitala m.v. fast verdlag,2016,4.1,extrapolation
+spa_2012_mars_vor,launavisitala m.v. fast verdlag,2017,5.5,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2011,1.7,history
+spa_2012_mars_vor,althjodleg verdbolga,2012,0.8,forecast
+spa_2012_mars_vor,althjodleg verdbolga,2013,1.8,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2014,2.4,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2015,2.4,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2016,2.5,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2017,2.5,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2011,2.7,history
+spa_2012_mars_vor,althjodleg verdbolga,2012,2.9,forecast
+spa_2012_mars_vor,althjodleg verdbolga,2013,2.3,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2014,2.0,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2015,2.4,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2016,2.5,extrapolation
+spa_2012_mars_vor,althjodleg verdbolga,2017,2.5,extrapolation
+spa_2012_mars_vor,verd utflutts als,2011,13.6,history
+spa_2012_mars_vor,verd utflutts als,2012,-11.5,forecast
+spa_2012_mars_vor,verd utflutts als,2013,5.1,extrapolation
+spa_2012_mars_vor,verd utflutts als,2014,2.4,extrapolation
+spa_2012_mars_vor,verd utflutts als,2015,3.5,extrapolation
+spa_2012_mars_vor,verd utflutts als,2016,2.6,extrapolation
+spa_2012_mars_vor,verd utflutts als,2017,2.4,extrapolation
+spa_2012_mars_vor,oliuverd,2011,31.6,history
+spa_2012_mars_vor,oliuverd,2012,1.6,forecast
+spa_2012_mars_vor,oliuverd,2013,-1.2,extrapolation
+spa_2012_mars_vor,oliuverd,2014,2.0,extrapolation
+spa_2012_mars_vor,oliuverd,2015,2.7,extrapolation
+spa_2012_mars_vor,oliuverd,2016,2.7,extrapolation
+spa_2012_mars_vor,oliuverd,2017,2.6,extrapolation

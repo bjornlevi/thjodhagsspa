@@ -1,0 +1,25 @@
+Tafla 2. Landsframleiðsla 2010–2017
+Table 2. Gross domestic product 2010–2017
+Volume growth from previous year (%) 20111 2012 2013 2014 2015 2016 2017
+Einkaneysla Private final consumption 4,0 3,1 2,4 3,1 2,9 2,8 3,2
+Samneysla Government final consumption -0,6 -0,3 0,3 0,1 0,7 1,0 1,0
+Fjármunamyndun Gross fixed capital formation 13,4 10,5 8,4 9,9 -1,5 6,0 8,1
+Atvinnuvegafjárfesting Business investment 25,8 11,8 6,3 9,4 -8,8 1,9 8,2
+Fjárfesting í íbúðarhúsnæði Housing investment 8,6 15,8 19,5 14,6 13,9 12,2 9,9
+Fjárfesting hins opinbera Public investment -17,6 -4,0 5,0 5,0 14,6 14,6 4,9
+Þjóðarútgjöld alls National final expenditure 4,7 3,1 2,7 3,6 1,6 2,9 3,6
+Útflutningur vöru og þjónustu Exports of goods and services 3,2 2,9 2,5 1,8 3,8 2,5 2,7
+Innflutningur vöru og þjónustu Import of goods and services 6,4 3,9 2,9 3,2 1,7 2,8 4,4
+Verg landsframleiðsla Gross domestic product 3,1 2,6 2,5 2,8 2,8 2,7 2,7
+Vöru- og þjónustujöfnuður (% af VLF) Goods and services balance (% of GDP) 8,2 7,7 7,8 7,0 8,0 7,8 7,1
+Viðskiptajöfnuður (% af VLF) Current account balance (% of GDP) -7,1 -4,1 -0,1 -0,9 0,0 -1,5 -2,6
+Vísitala neysluverðs Consumer price index 4,0 4,8 3,4 2,5 2,5 2,5 2,5
+Gengisvísitala Exchange rate index 0,1 2,8 0,4 -0,3 -0,4 -0,2 0,2
+Raungengi Real exchange rate 0,9 -0,7 0,7 0,8 0,6 0,2 -0,2
+Atvinnuleysi (% af vinnuafli)
+Unemployment rate (% of labour force) 7,4 6,1 5,5 5,2 4,6 4,1 3,7
+Launavísitala Wage rate index 6,8 7,2 4,6 5,4 4,3 4,1 5,5
+Alþjóðlegur hagvöxtur World GDP growth 1,7 0,8 1,8 2,4 2,4 2,5 2,5
+Alþjóðleg verðbólga World CPI inflation 2,7 2,9 2,3 2,0 2,4 2,5 2,5
+Verð útflutts áls Export price of aluminum 13,6 -11,5 5,1 2,4 3,5 2,6 2,4
+Olíuverð Oil price 31,6 1,6 -1,2 2,0 2,7 2,7 2,6
