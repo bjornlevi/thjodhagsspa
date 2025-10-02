@@ -58,8 +58,24 @@ px-dump: ## Fetch PX raw JSON only (no parsing), print quick summary
 px-fetch: ## Load THJ07100 PXWeb into SQLite (uses cached JSON if present)
 	$(PYTHON) -m pipeline.px_fetch
 
+px-fetch-07100: ## Load THJ07100 (actuals) into SQLite
+	$(PYTHON) -m pipeline.px_fetch_any THJ07100
+
+px-fetch-07000: ## Load THJ07000 (latest SPA table) into SQLite
+	$(PYTHON) -m pipeline.px_fetch_any THJ07000
+
 px-preview: ## Preview px_* tables
 	$(PYTHON) -m pipeline.px_preview
+
+px-list: ## List PX series for a table (use PX_TABLE or pass table name)
+	$(PYTHON) -m pipeline.px_list_series $(PX_TABLE)
+
+px-list-07000: ## List series in THJ07000
+	$(PYTHON) -m pipeline.px_list_series THJ07000
+
+px-list-07100: ## List series in THJ07100
+	$(PYTHON) -m pipeline.px_list_series THJ07100
+
 
 serve: ## Run the Flask dev server
 	FLASK_APP=app.py FLASK_ENV=development $(PYTHON) app.py
