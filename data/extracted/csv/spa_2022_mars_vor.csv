@@ -1,11 +1,11 @@
 pdf_name,label_key,year,value,type
-spa_2022_mars_vor,einkaneysla,2021,7.6,history
-spa_2022_mars_vor,einkaneysla,2022,4.2,forecast
-spa_2022_mars_vor,einkaneysla,2023,3.4,extrapolation
-spa_2022_mars_vor,einkaneysla,2024,3.0,extrapolation
-spa_2022_mars_vor,einkaneysla,2025,2.8,extrapolation
-spa_2022_mars_vor,einkaneysla,2026,2.6,extrapolation
-spa_2022_mars_vor,einkaneysla,2027,2.5,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2021,7.6,history
+spa_2022_mars_vor,verg landsframleidsla,2022,4.2,forecast
+spa_2022_mars_vor,verg landsframleidsla,2023,3.4,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2024,3.0,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2025,2.8,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2026,2.6,extrapolation
+spa_2022_mars_vor,verg landsframleidsla,2027,2.5,extrapolation
 spa_2022_mars_vor,samneysla,2021,1.8,history
 spa_2022_mars_vor,samneysla,2022,1.1,forecast
 spa_2022_mars_vor,samneysla,2023,1.5,extrapolation
@@ -62,13 +62,13 @@ spa_2022_mars_vor,innflutningur voru og thjonustu,2024,5.0,extrapolation
 spa_2022_mars_vor,innflutningur voru og thjonustu,2025,2.7,extrapolation
 spa_2022_mars_vor,innflutningur voru og thjonustu,2026,2.4,extrapolation
 spa_2022_mars_vor,innflutningur voru og thjonustu,2027,2.2,extrapolation
-spa_2022_mars_vor,verg landsframleidsla,2021,4.3,history
-spa_2022_mars_vor,verg landsframleidsla,2022,4.6,forecast
-spa_2022_mars_vor,verg landsframleidsla,2023,2.7,extrapolation
-spa_2022_mars_vor,verg landsframleidsla,2024,2.2,extrapolation
-spa_2022_mars_vor,verg landsframleidsla,2025,2.4,extrapolation
-spa_2022_mars_vor,verg landsframleidsla,2026,2.2,extrapolation
-spa_2022_mars_vor,verg landsframleidsla,2027,2.2,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2021,4.3,history
+spa_2022_mars_vor,visitala neysluverds,2022,4.6,forecast
+spa_2022_mars_vor,visitala neysluverds,2023,2.7,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2024,2.2,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2025,2.4,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2026,2.2,extrapolation
+spa_2022_mars_vor,visitala neysluverds,2027,2.2,extrapolation
 spa_2022_mars_vor,voru- og thjonustujofnudur,2021,-2.1,history
 spa_2022_mars_vor,voru- og thjonustujofnudur,2022,0.1,forecast
 spa_2022_mars_vor,voru- og thjonustujofnudur,2023,0.3,extrapolation
@@ -90,13 +90,13 @@ spa_2022_mars_vor,vlf a verdlagi hvers ars,2024,4.029,extrapolation
 spa_2022_mars_vor,vlf a verdlagi hvers ars,2025,4.231,extrapolation
 spa_2022_mars_vor,vlf a verdlagi hvers ars,2026,4.429,extrapolation
 spa_2022_mars_vor,vlf a verdlagi hvers ars,2027,4.642,extrapolation
-spa_2022_mars_vor,visitala neysluverds,2021,4.4,history
-spa_2022_mars_vor,visitala neysluverds,2022,5.9,forecast
-spa_2022_mars_vor,visitala neysluverds,2023,3.5,extrapolation
-spa_2022_mars_vor,visitala neysluverds,2024,2.6,extrapolation
-spa_2022_mars_vor,visitala neysluverds,2025,2.5,extrapolation
-spa_2022_mars_vor,visitala neysluverds,2026,2.5,extrapolation
-spa_2022_mars_vor,visitala neysluverds,2027,2.5,extrapolation
+spa_2022_mars_vor,einkaneysla,2021,4.4,history
+spa_2022_mars_vor,einkaneysla,2022,5.9,forecast
+spa_2022_mars_vor,einkaneysla,2023,3.5,extrapolation
+spa_2022_mars_vor,einkaneysla,2024,2.6,extrapolation
+spa_2022_mars_vor,einkaneysla,2025,2.5,extrapolation
+spa_2022_mars_vor,einkaneysla,2026,2.5,extrapolation
+spa_2022_mars_vor,einkaneysla,2027,2.5,extrapolation
 spa_2022_mars_vor,gengisvisitala,2021,-2.4,history
 spa_2022_mars_vor,gengisvisitala,2022,-3.9,forecast
 spa_2022_mars_vor,gengisvisitala,2023,-0.4,extrapolation

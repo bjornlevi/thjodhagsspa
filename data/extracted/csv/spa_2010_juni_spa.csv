@@ -1,11 +1,11 @@
 pdf_name,label_key,year,value,type
-spa_2010_juni_spa,einkaneysla,2009,-14.6,history
-spa_2010_juni_spa,einkaneysla,2010,-0.1,forecast
-spa_2010_juni_spa,einkaneysla,2011,3.4,extrapolation
-spa_2010_juni_spa,einkaneysla,2012,4.4,extrapolation
-spa_2010_juni_spa,einkaneysla,2013,3.0,extrapolation
-spa_2010_juni_spa,einkaneysla,2014,2.5,extrapolation
-spa_2010_juni_spa,einkaneysla,2015,2.7,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2009,-14.6,history
+spa_2010_juni_spa,verg landsframleidsla,2010,-0.1,forecast
+spa_2010_juni_spa,verg landsframleidsla,2011,3.4,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2012,4.4,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2013,3.0,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2014,2.5,extrapolation
+spa_2010_juni_spa,verg landsframleidsla,2015,2.7,extrapolation
 spa_2010_juni_spa,samneysla,2009,-3.0,history
 spa_2010_juni_spa,samneysla,2010,-3.8,forecast
 spa_2010_juni_spa,samneysla,2011,-3.8,extrapolation
@@ -62,13 +62,13 @@ spa_2010_juni_spa,innflutningur voru og thjonustu,2012,5.5,extrapolation
 spa_2010_juni_spa,innflutningur voru og thjonustu,2013,3.2,extrapolation
 spa_2010_juni_spa,innflutningur voru og thjonustu,2014,3.2,extrapolation
 spa_2010_juni_spa,innflutningur voru og thjonustu,2015,3.9,extrapolation
-spa_2010_juni_spa,verg landsframleidsla,2009,-6.5,history
-spa_2010_juni_spa,verg landsframleidsla,2010,-2.9,forecast
-spa_2010_juni_spa,verg landsframleidsla,2011,3.2,extrapolation
-spa_2010_juni_spa,verg landsframleidsla,2012,3.4,extrapolation
-spa_2010_juni_spa,verg landsframleidsla,2013,2.1,extrapolation
-spa_2010_juni_spa,verg landsframleidsla,2014,2.3,extrapolation
-spa_2010_juni_spa,verg landsframleidsla,2015,3.1,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2009,-6.5,history
+spa_2010_juni_spa,visitala neysluverds,2010,-2.9,forecast
+spa_2010_juni_spa,visitala neysluverds,2011,3.2,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2012,3.4,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2013,2.1,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2014,2.3,extrapolation
+spa_2010_juni_spa,visitala neysluverds,2015,3.1,extrapolation
 spa_2010_juni_spa,vidskiptajofnudur,2009,-3.7,history
 spa_2010_juni_spa,vidskiptajofnudur,2010,0.3,forecast
 spa_2010_juni_spa,vidskiptajofnudur,2011,-1.0,extrapolation
@@ -76,13 +76,13 @@ spa_2010_juni_spa,vidskiptajofnudur,2012,-2.3,extrapolation
 spa_2010_juni_spa,vidskiptajofnudur,2013,-1.3,extrapolation
 spa_2010_juni_spa,vidskiptajofnudur,2014,-4.8,extrapolation
 spa_2010_juni_spa,vidskiptajofnudur,2015,-5.4,extrapolation
-spa_2010_juni_spa,visitala neysluverds,2009,12.0,history
-spa_2010_juni_spa,visitala neysluverds,2010,6.0,forecast
-spa_2010_juni_spa,visitala neysluverds,2011,3.5,extrapolation
-spa_2010_juni_spa,visitala neysluverds,2012,2.5,extrapolation
-spa_2010_juni_spa,visitala neysluverds,2013,2.5,extrapolation
-spa_2010_juni_spa,visitala neysluverds,2014,2.6,extrapolation
-spa_2010_juni_spa,visitala neysluverds,2015,2.6,extrapolation
+spa_2010_juni_spa,einkaneysla,2009,12.0,history
+spa_2010_juni_spa,einkaneysla,2010,6.0,forecast
+spa_2010_juni_spa,einkaneysla,2011,3.5,extrapolation
+spa_2010_juni_spa,einkaneysla,2012,2.5,extrapolation
+spa_2010_juni_spa,einkaneysla,2013,2.5,extrapolation
+spa_2010_juni_spa,einkaneysla,2014,2.6,extrapolation
+spa_2010_juni_spa,einkaneysla,2015,2.6,extrapolation
 spa_2010_juni_spa,gengisvisitala,2009,34.2,history
 spa_2010_juni_spa,gengisvisitala,2010,-0.6,forecast
 spa_2010_juni_spa,gengisvisitala,2011,-0.6,extrapolation

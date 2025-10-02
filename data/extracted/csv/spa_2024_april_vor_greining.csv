@@ -1,11 +1,11 @@
 pdf_name,label_key,year,value,type
-spa_2024_april_vor_greining,einkaneysla,2023,0.5,history
-spa_2024_april_vor_greining,einkaneysla,2024,0.9,forecast
-spa_2024_april_vor_greining,einkaneysla,2025,3.0,extrapolation
-spa_2024_april_vor_greining,einkaneysla,2026,2.8,extrapolation
-spa_2024_april_vor_greining,einkaneysla,2027,2.6,extrapolation
-spa_2024_april_vor_greining,einkaneysla,2028,2.6,extrapolation
-spa_2024_april_vor_greining,einkaneysla,2029,2.5,extrapolation
+spa_2024_april_vor_greining,verg landsframleidsla,2023,0.5,history
+spa_2024_april_vor_greining,verg landsframleidsla,2024,0.9,forecast
+spa_2024_april_vor_greining,verg landsframleidsla,2025,3.0,extrapolation
+spa_2024_april_vor_greining,verg landsframleidsla,2026,2.8,extrapolation
+spa_2024_april_vor_greining,verg landsframleidsla,2027,2.6,extrapolation
+spa_2024_april_vor_greining,verg landsframleidsla,2028,2.6,extrapolation
+spa_2024_april_vor_greining,verg landsframleidsla,2029,2.5,extrapolation
 spa_2024_april_vor_greining,samneysla,2023,2.2,history
 spa_2024_april_vor_greining,samneysla,2024,1.4,forecast
 spa_2024_april_vor_greining,samneysla,2025,0.8,extrapolation
@@ -62,13 +62,13 @@ spa_2024_april_vor_greining,innflutningur voru og thjonustu,2026,2.3,extrapolati
 spa_2024_april_vor_greining,innflutningur voru og thjonustu,2027,2.3,extrapolation
 spa_2024_april_vor_greining,innflutningur voru og thjonustu,2028,1.8,extrapolation
 spa_2024_april_vor_greining,innflutningur voru og thjonustu,2029,2.0,extrapolation
-spa_2024_april_vor_greining,verg landsframleidsla,2023,4.1,history
-spa_2024_april_vor_greining,verg landsframleidsla,2024,1.5,forecast
-spa_2024_april_vor_greining,verg landsframleidsla,2025,3.0,extrapolation
-spa_2024_april_vor_greining,verg landsframleidsla,2026,2.7,extrapolation
-spa_2024_april_vor_greining,verg landsframleidsla,2027,2.4,extrapolation
-spa_2024_april_vor_greining,verg landsframleidsla,2028,2.3,extrapolation
-spa_2024_april_vor_greining,verg landsframleidsla,2029,2.3,extrapolation
+spa_2024_april_vor_greining,visitala neysluverds,2023,4.1,history
+spa_2024_april_vor_greining,visitala neysluverds,2024,1.5,forecast
+spa_2024_april_vor_greining,visitala neysluverds,2025,3.0,extrapolation
+spa_2024_april_vor_greining,visitala neysluverds,2026,2.7,extrapolation
+spa_2024_april_vor_greining,visitala neysluverds,2027,2.4,extrapolation
+spa_2024_april_vor_greining,visitala neysluverds,2028,2.3,extrapolation
+spa_2024_april_vor_greining,visitala neysluverds,2029,2.3,extrapolation
 spa_2024_april_vor_greining,voru- og thjonustujofnudur,2023,-0.1,history
 spa_2024_april_vor_greining,voru- og thjonustujofnudur,2024,0.4,forecast
 spa_2024_april_vor_greining,voru- og thjonustujofnudur,2025,0.7,extrapolation
@@ -90,13 +90,13 @@ spa_2024_april_vor_greining,vlf a verdlagi hvers ars,2026,5.11,extrapolation
 spa_2024_april_vor_greining,vlf a verdlagi hvers ars,2027,5.372,extrapolation
 spa_2024_april_vor_greining,vlf a verdlagi hvers ars,2028,5.646,extrapolation
 spa_2024_april_vor_greining,vlf a verdlagi hvers ars,2029,5.942,extrapolation
-spa_2024_april_vor_greining,visitala neysluverds,2023,8.7,history
-spa_2024_april_vor_greining,visitala neysluverds,2024,5.2,forecast
-spa_2024_april_vor_greining,visitala neysluverds,2025,3.2,extrapolation
-spa_2024_april_vor_greining,visitala neysluverds,2026,2.7,extrapolation
-spa_2024_april_vor_greining,visitala neysluverds,2027,2.5,extrapolation
-spa_2024_april_vor_greining,visitala neysluverds,2028,2.5,extrapolation
-spa_2024_april_vor_greining,visitala neysluverds,2029,2.5,extrapolation
+spa_2024_april_vor_greining,einkaneysla,2023,8.7,history
+spa_2024_april_vor_greining,einkaneysla,2024,5.2,forecast
+spa_2024_april_vor_greining,einkaneysla,2025,3.2,extrapolation
+spa_2024_april_vor_greining,einkaneysla,2026,2.7,extrapolation
+spa_2024_april_vor_greining,einkaneysla,2027,2.5,extrapolation
+spa_2024_april_vor_greining,einkaneysla,2028,2.5,extrapolation
+spa_2024_april_vor_greining,einkaneysla,2029,2.5,extrapolation
 spa_2024_april_vor_greining,gengisvisitala,2023,2.6,history
 spa_2024_april_vor_greining,gengisvisitala,2024,0.0,forecast
 spa_2024_april_vor_greining,gengisvisitala,2025,0.0,extrapolation

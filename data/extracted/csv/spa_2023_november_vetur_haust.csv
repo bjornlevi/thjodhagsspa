@@ -1,11 +1,11 @@
 pdf_name,label_key,year,value,type
-spa_2023_november_vetur_haust,einkaneysla,2022,8.6,history
-spa_2023_november_vetur_haust,einkaneysla,2023,1.9,forecast
-spa_2023_november_vetur_haust,einkaneysla,2024,2.1,extrapolation
-spa_2023_november_vetur_haust,einkaneysla,2025,2.8,extrapolation
-spa_2023_november_vetur_haust,einkaneysla,2026,2.5,extrapolation
-spa_2023_november_vetur_haust,einkaneysla,2027,2.5,extrapolation
-spa_2023_november_vetur_haust,einkaneysla,2028,2.5,extrapolation
+spa_2023_november_vetur_haust,verg landsframleidsla,2022,8.6,history
+spa_2023_november_vetur_haust,verg landsframleidsla,2023,1.9,forecast
+spa_2023_november_vetur_haust,verg landsframleidsla,2024,2.1,extrapolation
+spa_2023_november_vetur_haust,verg landsframleidsla,2025,2.8,extrapolation
+spa_2023_november_vetur_haust,verg landsframleidsla,2026,2.5,extrapolation
+spa_2023_november_vetur_haust,verg landsframleidsla,2027,2.5,extrapolation
+spa_2023_november_vetur_haust,verg landsframleidsla,2028,2.5,extrapolation
 spa_2023_november_vetur_haust,samneysla,2022,1.6,history
 spa_2023_november_vetur_haust,samneysla,2023,2.0,forecast
 spa_2023_november_vetur_haust,samneysla,2024,1.7,extrapolation
@@ -62,13 +62,13 @@ spa_2023_november_vetur_haust,innflutningur voru og thjonustu,2025,2.3,extrapola
 spa_2023_november_vetur_haust,innflutningur voru og thjonustu,2026,1.7,extrapolation
 spa_2023_november_vetur_haust,innflutningur voru og thjonustu,2027,1.4,extrapolation
 spa_2023_november_vetur_haust,innflutningur voru og thjonustu,2028,1.8,extrapolation
-spa_2023_november_vetur_haust,verg landsframleidsla,2022,6.4,history
-spa_2023_november_vetur_haust,verg landsframleidsla,2023,3.8,forecast
-spa_2023_november_vetur_haust,verg landsframleidsla,2024,2.7,extrapolation
-spa_2023_november_vetur_haust,verg landsframleidsla,2025,2.6,extrapolation
-spa_2023_november_vetur_haust,verg landsframleidsla,2026,2.2,extrapolation
-spa_2023_november_vetur_haust,verg landsframleidsla,2027,2.3,extrapolation
-spa_2023_november_vetur_haust,verg landsframleidsla,2028,2.4,extrapolation
+spa_2023_november_vetur_haust,visitala neysluverds,2022,6.4,history
+spa_2023_november_vetur_haust,visitala neysluverds,2023,3.8,forecast
+spa_2023_november_vetur_haust,visitala neysluverds,2024,2.7,extrapolation
+spa_2023_november_vetur_haust,visitala neysluverds,2025,2.6,extrapolation
+spa_2023_november_vetur_haust,visitala neysluverds,2026,2.2,extrapolation
+spa_2023_november_vetur_haust,visitala neysluverds,2027,2.3,extrapolation
+spa_2023_november_vetur_haust,visitala neysluverds,2028,2.4,extrapolation
 spa_2023_november_vetur_haust,voru- og thjonustujofnudur,2022,-0.7,history
 spa_2023_november_vetur_haust,voru- og thjonustujofnudur,2023,-1.6,forecast
 spa_2023_november_vetur_haust,voru- og thjonustujofnudur,2024,-1.4,extrapolation
@@ -90,13 +90,13 @@ spa_2023_november_vetur_haust,vlf a verdlagi hvers ars,2025,4.716,extrapolation
 spa_2023_november_vetur_haust,vlf a verdlagi hvers ars,2026,4.957,extrapolation
 spa_2023_november_vetur_haust,vlf a verdlagi hvers ars,2027,5.211,extrapolation
 spa_2023_november_vetur_haust,vlf a verdlagi hvers ars,2028,5.491,extrapolation
-spa_2023_november_vetur_haust,visitala neysluverds,2022,8.3,history
-spa_2023_november_vetur_haust,visitala neysluverds,2023,8.2,forecast
-spa_2023_november_vetur_haust,visitala neysluverds,2024,4.6,extrapolation
-spa_2023_november_vetur_haust,visitala neysluverds,2025,3.0,extrapolation
-spa_2023_november_vetur_haust,visitala neysluverds,2026,2.6,extrapolation
-spa_2023_november_vetur_haust,visitala neysluverds,2027,2.5,extrapolation
-spa_2023_november_vetur_haust,visitala neysluverds,2028,2.5,extrapolation
+spa_2023_november_vetur_haust,einkaneysla,2022,8.3,history
+spa_2023_november_vetur_haust,einkaneysla,2023,8.2,forecast
+spa_2023_november_vetur_haust,einkaneysla,2024,4.6,extrapolation
+spa_2023_november_vetur_haust,einkaneysla,2025,3.0,extrapolation
+spa_2023_november_vetur_haust,einkaneysla,2026,2.6,extrapolation
+spa_2023_november_vetur_haust,einkaneysla,2027,2.5,extrapolation
+spa_2023_november_vetur_haust,einkaneysla,2028,2.5,extrapolation
 spa_2023_november_vetur_haust,gengisvisitala,2022,-3.0,history
 spa_2023_november_vetur_haust,gengisvisitala,2023,4.3,forecast
 spa_2023_november_vetur_haust,gengisvisitala,2024,0.0,extrapolation

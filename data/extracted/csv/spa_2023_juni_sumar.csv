@@ -1,11 +1,11 @@
 pdf_name,label_key,year,value,type
-spa_2023_juni_sumar,einkaneysla,2022,8.6,history
-spa_2023_juni_sumar,einkaneysla,2023,2.3,forecast
-spa_2023_juni_sumar,einkaneysla,2024,2.2,extrapolation
-spa_2023_juni_sumar,einkaneysla,2025,2.7,extrapolation
-spa_2023_juni_sumar,einkaneysla,2026,2.5,extrapolation
-spa_2023_juni_sumar,einkaneysla,2027,2.5,extrapolation
-spa_2023_juni_sumar,einkaneysla,2028,2.5,extrapolation
+spa_2023_juni_sumar,verg landsframleidsla,2022,8.6,history
+spa_2023_juni_sumar,verg landsframleidsla,2023,2.3,forecast
+spa_2023_juni_sumar,verg landsframleidsla,2024,2.2,extrapolation
+spa_2023_juni_sumar,verg landsframleidsla,2025,2.7,extrapolation
+spa_2023_juni_sumar,verg landsframleidsla,2026,2.5,extrapolation
+spa_2023_juni_sumar,verg landsframleidsla,2027,2.5,extrapolation
+spa_2023_juni_sumar,verg landsframleidsla,2028,2.5,extrapolation
 spa_2023_juni_sumar,samneysla,2022,1.6,history
 spa_2023_juni_sumar,samneysla,2023,2.0,forecast
 spa_2023_juni_sumar,samneysla,2024,1.7,extrapolation
@@ -62,13 +62,13 @@ spa_2023_juni_sumar,innflutningur voru og thjonustu,2025,2.0,extrapolation
 spa_2023_juni_sumar,innflutningur voru og thjonustu,2026,2.3,extrapolation
 spa_2023_juni_sumar,innflutningur voru og thjonustu,2027,1.8,extrapolation
 spa_2023_juni_sumar,innflutningur voru og thjonustu,2028,1.9,extrapolation
-spa_2023_juni_sumar,verg landsframleidsla,2022,6.4,history
-spa_2023_juni_sumar,verg landsframleidsla,2023,4.0,forecast
-spa_2023_juni_sumar,verg landsframleidsla,2024,2.5,extrapolation
-spa_2023_juni_sumar,verg landsframleidsla,2025,2.4,extrapolation
-spa_2023_juni_sumar,verg landsframleidsla,2026,2.6,extrapolation
-spa_2023_juni_sumar,verg landsframleidsla,2027,2.5,extrapolation
-spa_2023_juni_sumar,verg landsframleidsla,2028,2.4,extrapolation
+spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2022,6.4,history
+spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2023,4.0,forecast
+spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2024,2.5,extrapolation
+spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2025,2.4,extrapolation
+spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2026,2.6,extrapolation
+spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2027,2.5,extrapolation
+spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2028,2.4,extrapolation
 spa_2023_juni_sumar,voru- og thjonustujofnudur,2022,-0.7,history
 spa_2023_juni_sumar,voru- og thjonustujofnudur,2023,-0.9,forecast
 spa_2023_juni_sumar,voru- og thjonustujofnudur,2024,-0.9,extrapolation
@@ -125,13 +125,13 @@ spa_2023_juni_sumar,launavisitala m.v. fast verdlag,2025,1.1,extrapolation
 spa_2023_juni_sumar,launavisitala m.v. fast verdlag,2026,1.4,extrapolation
 spa_2023_juni_sumar,launavisitala m.v. fast verdlag,2027,1.6,extrapolation
 spa_2023_juni_sumar,launavisitala m.v. fast verdlag,2028,1.6,extrapolation
-spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2022,3.4,history
-spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2023,1.1,forecast
-spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2024,1.4,extrapolation
-spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2025,1.9,extrapolation
-spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2026,1.8,extrapolation
-spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2027,1.6,extrapolation
-spa_2023_juni_sumar,hagvoxtur i helstu vidskiptalondum,2028,1.6,extrapolation
+spa_2023_juni_sumar,einkaneysla,2022,3.4,history
+spa_2023_juni_sumar,einkaneysla,2023,1.1,forecast
+spa_2023_juni_sumar,einkaneysla,2024,1.4,extrapolation
+spa_2023_juni_sumar,einkaneysla,2025,1.9,extrapolation
+spa_2023_juni_sumar,einkaneysla,2026,1.8,extrapolation
+spa_2023_juni_sumar,einkaneysla,2027,1.6,extrapolation
+spa_2023_juni_sumar,einkaneysla,2028,1.6,extrapolation
 spa_2023_juni_sumar,althjodleg verdbolga,2022,7.6,history
 spa_2023_juni_sumar,althjodleg verdbolga,2023,5.5,forecast
 spa_2023_juni_sumar,althjodleg verdbolga,2024,3.0,extrapolation
