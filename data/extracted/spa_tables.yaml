@@ -1,3 +1,28 @@
+spa_2003_landsframleidsla_2003:
+  candidate: 0
+  hits: 6
+  page: 8
+  strategy: text_loose
+spa_2004_landsframleidsla_2004:
+  candidate: 0
+  hits: 6
+  page: 9
+  strategy: text_loose
+spa_2005_landsframleidsla_2005:
+  candidate: 0
+  hits: 6
+  page: 15
+  strategy: text_loose
+spa_2006_landsframleidsla_2006:
+  candidate: 0
+  hits: 6
+  page: 9
+  strategy: text_loose
+spa_2009_landsframleidsla_2009:
+  candidate: 0
+  hits: 6
+  page: 11
+  strategy: text_loose
 spa_2010_juni_spa:
   candidate: 0
   page: 20

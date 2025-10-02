@@ -6,14 +6,22 @@ RAW_DIR     = data/extracted/raw
 CSV_DIR     = data/extracted/csv
 PDF_DIR     = data/spa_pdf
 
+# SQLite loader (run as module)
+DB          = data/spa.sqlite3
+SCHEMA      = schema.sql
+LOADER_MOD  = pipeline.load_spa_sqlite
+
 # -------- Targets --------
-.PHONY: help pipeline parse clean
+.PHONY: help pipeline parse clean db db-load db-clean db-stats
 
 help: ## Show this help
 	@echo ""
 	@echo "Available targets:"
 	@echo "  make pipeline   - Run spa pipeline: scan PDFs, locate tables, dump raw pages"
 	@echo "  make parse      - Run parse: read raw dumps and create tidy CSVs"
+	@echo "  make db         - Load all CSVs into SQLite (via module)"
+	@echo "  make db-stats   - Show row counts in SQLite tables"
+	@echo "  make db-clean   - Remove the SQLite DB"
 	@echo "  make clean      - Remove extracted raw + csv outputs"
 	@echo ""
 
@@ -22,6 +30,20 @@ pipeline: ## Locate and dump tables (raw page text only)
 
 parse: ## Parse raw dumps into tidy CSV
 	$(PYTHON) -m pipeline.run_parse
+
+# --- SQLite (module-based) ---
+db: db-load ## Load all CSVs into SQLite
+
+db-load: $(SCHEMA)  ## Run the loader module; requires schema.sql present
+	@echo "[i] Loading CSVs into $(DB)"
+	@$(PYTHON) -m $(LOADER_MOD)
+
+db-stats: ## Quick table counts
+	@sqlite3 $(DB) "SELECT 'canon', COUNT(*) FROM canon UNION ALL SELECT 'observations', COUNT(*) FROM observations;"
+
+db-clean: ## Remove the SQLite DB
+	@rm -f $(DB)
+	@echo "[✓] Removed $(DB)"
 
 clean: ## Remove extracted files
 	rm -rf $(RAW_DIR)/* $(CSV_DIR)/*

@@ -11,7 +11,6 @@ Fjárfesting hins opinbera Public investment 12,4 -1,0 -1,2 -3,4 3,4 -0,1 -0,7
 Útflutningur vöru og þjónustu Exports of goods and services 12,3 16,0 5,8 4,7 3,1 2,5 2,4
 Innflutningur vöru og þjónustu Import of goods and services 20,3 12,4 4,9 5,0 2,7 2,4 2,2
 Verg landsframleiðsla Gross domestic product 4,3 4,6 2,7 2,2 2,4 2,2 2,2
-Vöru- og þjónustujöfnuður (% af VLF)
 Goods and services balance (% of GDP) -2,1 0,1 0,3 0,5 0,6 0,5 0,6
 Viðskiptajöfnuður (% af VLF)
 Current account balance (% of GDP) -2,8 0,0 0,0 0,1 0,0 -0,1 -0,1

@@ -1,0 +1,97 @@
+pdf_name,label_key,year,value,type
+spa_2005_landsframleidsla_2005,verg landsframleidsla,2000,413.488,history
+spa_2005_landsframleidsla_2005,verg landsframleidsla,2001,432.161,history
+spa_2005_landsframleidsla_2005,verg landsframleidsla,2002,445.619,history
+spa_2005_landsframleidsla_2005,verg landsframleidsla,2003,476.879,history
+spa_2005_landsframleidsla_2005,verg landsframleidsla,2004,525.808,history
+spa_2005_landsframleidsla_2005,verg landsframleidsla,2005,599.222,forecast
+spa_2005_landsframleidsla_2005,samneysla,2000,159.26,history
+spa_2005_landsframleidsla_2005,samneysla,2001,178.2,history
+spa_2005_landsframleidsla_2005,samneysla,2002,202.135,history
+spa_2005_landsframleidsla_2005,samneysla,2003,213.502,history
+spa_2005_landsframleidsla_2005,samneysla,2004,228.287,history
+spa_2005_landsframleidsla_2005,samneysla,2005,246.325,forecast
+spa_2005_landsframleidsla_2005,fjarmunamyndun,2000,152.825,history
+spa_2005_landsframleidsla_2005,fjarmunamyndun,2001,164.746,history
+spa_2005_landsframleidsla_2005,fjarmunamyndun,2002,139.295,history
+spa_2005_landsframleidsla_2005,fjarmunamyndun,2003,164.698,history
+spa_2005_landsframleidsla_2005,fjarmunamyndun,2004,215.647,history
+spa_2005_landsframleidsla_2005,fjarmunamyndun,2005,285.933,forecast
+spa_2005_landsframleidsla_2005,fjarfesting hins opinbera,2000,2.494,history
+spa_2005_landsframleidsla_2005,fjarfesting hins opinbera,2001,-2.084,history
+spa_2005_landsframleidsla_2005,fjarfesting hins opinbera,2002,-182.0,history
+spa_2005_landsframleidsla_2005,fjarfesting hins opinbera,2003,-1.453,history
+spa_2005_landsframleidsla_2005,fjarfesting hins opinbera,2004,-918.0,history
+spa_2005_landsframleidsla_2005,fjarfesting hins opinbera,2005,-862.0,forecast
+spa_2005_landsframleidsla_2005,utflutningur voru og thjonustu,2000,229.577,history
+spa_2005_landsframleidsla_2005,utflutningur voru og thjonustu,2001,299.492,history
+spa_2005_landsframleidsla_2005,utflutningur voru og thjonustu,2002,305.607,history
+spa_2005_landsframleidsla_2005,utflutningur voru og thjonustu,2003,288.552,history
+spa_2005_landsframleidsla_2005,utflutningur voru og thjonustu,2004,316.903,history
+spa_2005_landsframleidsla_2005,utflutningur voru og thjonustu,2005,313.951,forecast
+spa_2005_landsframleidsla_2005,innflutningur voru og thjonustu,2000,279.345,history
+spa_2005_landsframleidsla_2005,innflutningur voru og thjonustu,2001,307.642,history
+spa_2005_landsframleidsla_2005,innflutningur voru og thjonustu,2002,292.915,history
+spa_2005_landsframleidsla_2005,innflutningur voru og thjonustu,2003,314.314,history
+spa_2005_landsframleidsla_2005,innflutningur voru og thjonustu,2004,368.962,history
+spa_2005_landsframleidsla_2005,innflutningur voru og thjonustu,2005,448.578,forecast
+spa_2005_landsframleidsla_2005,visitala neysluverds,2000,678.299,history
+spa_2005_landsframleidsla_2005,visitala neysluverds,2001,764.874,history
+spa_2005_landsframleidsla_2005,visitala neysluverds,2002,799.56,history
+spa_2005_landsframleidsla_2005,visitala neysluverds,2003,827.863,history
+spa_2005_landsframleidsla_2005,visitala neysluverds,2004,916.765,history
+spa_2005_landsframleidsla_2005,visitala neysluverds,2005,995.991,forecast
+spa_2005_landsframleidsla_2005,vidskiptajofnudur,2000,-68.677,history
+spa_2005_landsframleidsla_2005,vidskiptajofnudur,2001,-32.406,history
+spa_2005_landsframleidsla_2005,vidskiptajofnudur,2002,11.457,history
+spa_2005_landsframleidsla_2005,vidskiptajofnudur,2003,-39.873,history
+spa_2005_landsframleidsla_2005,vidskiptajofnudur,2004,-84.133,history
+spa_2005_landsframleidsla_2005,vidskiptajofnudur,2005,-162.34,forecast
+spa_2005_landsframleidsla_2005,voru- og thjonustujofnudur,2000,-18.909,history
+spa_2005_landsframleidsla_2005,voru- og thjonustujofnudur,2001,-24.256,history
+spa_2005_landsframleidsla_2005,voru- og thjonustujofnudur,2002,-1.235,history
+spa_2005_landsframleidsla_2005,voru- og thjonustujofnudur,2003,-14.111,history
+spa_2005_landsframleidsla_2005,voru- og thjonustujofnudur,2004,-32.074,history
+spa_2005_landsframleidsla_2005,voru- og thjonustujofnudur,2005,-27.713,forecast
+spa_2005_landsframleidsla_2005,hagvoxtur i helstu vidskiptalondum,2000,4.2,history
+spa_2005_landsframleidsla_2005,hagvoxtur i helstu vidskiptalondum,2001,-3.0,history
+spa_2005_landsframleidsla_2005,hagvoxtur i helstu vidskiptalondum,2002,-1.6,history
+spa_2005_landsframleidsla_2005,hagvoxtur i helstu vidskiptalondum,2003,5.9,history
+spa_2005_landsframleidsla_2005,hagvoxtur i helstu vidskiptalondum,2004,7.2,history
+spa_2005_landsframleidsla_2005,hagvoxtur i helstu vidskiptalondum,2005,11.9,forecast
+spa_2005_landsframleidsla_2005,einkaneysla,2000,4.3,history
+spa_2005_landsframleidsla_2005,einkaneysla,2001,3.1,history
+spa_2005_landsframleidsla_2005,einkaneysla,2002,5.1,history
+spa_2005_landsframleidsla_2005,einkaneysla,2003,1.6,history
+spa_2005_landsframleidsla_2005,einkaneysla,2004,2.9,history
+spa_2005_landsframleidsla_2005,einkaneysla,2005,3.2,forecast
+spa_2005_landsframleidsla_2005,althjodleg verdbolga,2000,10.4,history
+spa_2005_landsframleidsla_2005,althjodleg verdbolga,2001,-3.0,history
+spa_2005_landsframleidsla_2005,althjodleg verdbolga,2002,-18.9,history
+spa_2005_landsframleidsla_2005,althjodleg verdbolga,2003,16.3,history
+spa_2005_landsframleidsla_2005,althjodleg verdbolga,2004,29.1,history
+spa_2005_landsframleidsla_2005,althjodleg verdbolga,2005,34.5,forecast
+spa_2005_landsframleidsla_2005,thjodarutgjold alls,2000,5.7,history
+spa_2005_landsframleidsla_2005,thjodarutgjold alls,2001,-2.3,history
+spa_2005_landsframleidsla_2005,thjodarutgjold alls,2002,-3.5,history
+spa_2005_landsframleidsla_2005,thjodarutgjold alls,2003,6.4,history
+spa_2005_landsframleidsla_2005,thjodarutgjold alls,2004,10.4,history
+spa_2005_landsframleidsla_2005,thjodarutgjold alls,2005,14.9,forecast
+spa_2005_landsframleidsla_2005,verd utflutts als,2000,4.3,history
+spa_2005_landsframleidsla_2005,verd utflutts als,2001,7.4,history
+spa_2005_landsframleidsla_2005,verd utflutts als,2002,3.8,history
+spa_2005_landsframleidsla_2005,verd utflutts als,2003,1.6,history
+spa_2005_landsframleidsla_2005,verd utflutts als,2004,8.4,history
+spa_2005_landsframleidsla_2005,verd utflutts als,2005,3.5,forecast
+spa_2005_landsframleidsla_2005,atvinnuvegafjarfesting,2000,8.6,history
+spa_2005_landsframleidsla_2005,atvinnuvegafjarfesting,2001,-9.1,history
+spa_2005_landsframleidsla_2005,atvinnuvegafjarfesting,2002,-2.6,history
+spa_2005_landsframleidsla_2005,atvinnuvegafjarfesting,2003,10.8,history
+spa_2005_landsframleidsla_2005,atvinnuvegafjarfesting,2004,14.4,history
+spa_2005_landsframleidsla_2005,atvinnuvegafjarfesting,2005,28.4,forecast
+spa_2005_landsframleidsla_2005,gengisvisitala,2000,4.1,history
+spa_2005_landsframleidsla_2005,gengisvisitala,2001,3.8,history
+spa_2005_landsframleidsla_2005,gengisvisitala,2002,-1.0,history
+spa_2005_landsframleidsla_2005,gengisvisitala,2003,3.0,history
+spa_2005_landsframleidsla_2005,gengisvisitala,2004,8.2,history
+spa_2005_landsframleidsla_2005,gengisvisitala,2005,5.5,forecast

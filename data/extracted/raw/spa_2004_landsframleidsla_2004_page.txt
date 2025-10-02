@@ -1,0 +1,35 @@
+Tafla 1. Landsframleiðsla og þjóðartekjur 1999–2004
+Table 1. Gross Domestic Product and Gross National Income 1999–2004
+Million ISK at current prices 1999 2000 2001 2002 20031 20042
+1. Einkaneysla Private final consumption 359.881 391.747 407.986 420.214 451.237 496.292
+2. Samneysla Government final consumption 142.430 157.934 176.656 196.978 211.797 228.244
+3. Fjármunamyndun Gross fixed capital formation 135.333 157.917 165.564 135.475 160.678 188.742
+4. Birgðabreytingar Changes in inventories 120 2.494 -2.084 -182 -1.501 -3.383
+5. Þjóðarútgjöld alls Gross domestic final expenditure 637.764 710.092 748.121 752.485 822.210 909.895
+6. Útflutningur alls Exports of goods and services 212.166 229.520 299.412 305.864 288.314 316.139
+6.2 Þjónusta Services 67.238 80.248 102.830 101.561 105.734 113.766
+7. Frádráttur: Innflutningur alls
+Less: Imports of goods and services 241.482 278.637 306.897 292.110 313.037 367.113
+7.2 Þjónusta Services 74.172 91.885 104.379 101.889 114.557 128.193
+8. Verg Landsframleiðsla Gross Domestic Product 608.448 660.975 740.636 766.239 797.487 858.921
+9. Launa- og eignatekjur frá útlöndum, nettó
+11. Viðskiptajöfnuður án rekstrarframlaga
+Balance on current account -41.883 -68.526 -32.770 7.509 -41.225 -68.691
+11.1 Vöruskiptajöfnuður fob/fob Balance on goods -22.382 -37.480 -5.936 14.082 -15.900 -36.547
+11.2 Þjónustujöfnuður fob/fob Balance on services -6.934 -11.637 -1.549 -328 -8.823 -14.427
+11.3 Launa- og eignatekjur frá útlöndum, nettó
+Balance on primary income from abroad -12.567 -19.409 -25.285 -6.245 -16.502 -17.717
+Tafla 2. Raunbreyting landsframleiðslu og þjóðartekna 1999–2004
+Table 2. Volume changes in Gross Domestic Product and Gross National Income 1999–2004
+Volume changes on previous year, %1 1999 2000 2001 2002 20032 20043
+1. Einkaneysla Private final consumption 8,1 4,4 -3,5 -1,4 6,6 7,5
+2. Samneysla Government final consumption 4,9 4,4 3,1 3,2 3,5 3,6
+3. Fjármunamyndun Gross fixed capital formation -3,9 15,3 -6,4 -20,9 17,0 12,8
+5. Þjóðarútgjöld alls Gross domestic final expenditure 4,5 7,2 -3,7 -4,5 7,8 7,7
+6. Útflutningur alls Exports of goods and services 4,0 4,0 7,4 3,9 1,4 8,3
+6.2 Þjónusta Services -2,5 16,3 7,7 -1,4 6,8 6,5
+7. Frádráttur: Innflutningur alls
+Less: Imports of goods and services 4,2 8,0 -9,1 -2,7 10,4 14,3
+7.2 Þjónusta Services 6,9 21,5 -7,2 -1,2 16,9 11,6
+8. Verg Landsframleiðsla Gross Domestic Product 4,4 5,7 2,6 -2,1 4,2 5,2
+1 Raunbreytingar eru reiknaðar á föstu verðlagi ársins 1990. Volume changes are based on 1990 prices.
