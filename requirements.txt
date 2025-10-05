@@ -16,3 +16,5 @@ pyyaml
 rapidfuzz
 flask
 gunicorn
+matplotlib
+scipy

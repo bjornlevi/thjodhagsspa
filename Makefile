@@ -99,5 +99,10 @@ px-list-07000:
 px-list-07100:
 	$(PYTHON) -m pipeline.px_list_series THJ07100
 
+ANALYZE = pipeline/analyze_accuracy.py
+analyze: ## Join SPA↔PX, compute metrics & bias-corrected backtest
+	$(PYTHON) -m pipeline.analyze_accuracy
+
+
 serve: ## Run the Flask dev server
 	FLASK_APP=app.app FLASK_ENV=development $(PYTHON) -m flask run -p 5000
