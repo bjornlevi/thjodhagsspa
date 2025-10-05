@@ -2,25 +2,114 @@
 <html lang="is">
 <head>
   <meta charset="utf-8">
-  <title>{% block title %}Þjóðhagsspá{% endblock %}</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="{{ url_for('static', filename='site.css') }}" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+  <title>Þjóðhagsspá – Sjálfvirk yfirsýn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="{{ url_for('static', filename='js/chart_helpers.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/chart_tables.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/legend.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <h1><a href="{{ url_for('index') }}">Þjóðhagsspá</a></h1>
-      <p class="subtle">Forgreining vs. rauntölur (Statistics Iceland)</p>
-    </div>
-  </header>
-  <main class="wrap">
-    {% block content %}{% endblock %}
-  </main>
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>Byggt á CSV &amp; PX gögnum. {{ _('') }}</p>
-    </div>
-  </footer>
+<header>
+  <div class="container">
+    <strong>Þjóðhagsspá</strong> <span class="muted">— samanburður milli árganga</span>
+  </div>
+</header>
+<div class="container">
+  {% block content %}{% endblock %}
+</div>
+<script>
+function renderDatasetsTable(containerId, datasets, opts = {}) {
+  const xLabel = opts.xLabel || 'X';
+  const valueFmt = opts.valueFmt || (v => (v == null ? '' : String(v)));
+  const xFmt = opts.xFmt || (v => v);
+  const typeGlyph = t => (t === 'forecast' ? '▲' : (t === 'extrapolation' ? '■' : '●'));
+
+  // Collect unique x values (sorted ascending)
+  const xValuesSet = new Set();
+  datasets.forEach(ds => (ds.data || []).forEach(p => xValuesSet.add(p.x)));
+  const xValues = Array.from(xValuesSet).sort((a,b)=>a-b);
+
+  // Fast lookup: map[label][x] -> {y,t,abs_year,t_rel}
+  const L = {};
+  datasets.forEach(ds => {
+    const m = {};
+    (ds.data || []).forEach(p => { m[p.x] = p; });
+    L[ds.label] = m;
+  });
+
+  // Build table
+  const container = document.getElementById(containerId);
+  container.innerHTML = ''; // reset
+  const tbl = document.createElement('table');
+  tbl.className = 'series-table';
+
+  // Head
+  const thead = document.createElement('thead');
+  const hrow = document.createElement('tr');
+  const thX = document.createElement('th');
+  thX.textContent = xLabel;
+  hrow.appendChild(thX);
+  datasets.forEach(ds => {
+    const th = document.createElement('th');
+    th.textContent = ds.label;
+    hrow.appendChild(th);
+  });
+  thead.appendChild(hrow);
+  tbl.appendChild(thead);
+
+  // Body
+  const tbody = document.createElement('tbody');
+  xValues.forEach(x => {
+    const tr = document.createElement('tr');
+    const tdX = document.createElement('td');
+    tdX.textContent = xFmt(x);
+    tr.appendChild(tdX);
+
+    datasets.forEach(ds => {
+      const td = document.createElement('td');
+      const p = (L[ds.label] || {})[x];
+      if (p) {
+        td.textContent = valueFmt(p.y);
+        // add tiny glyph for type
+        const span = document.createElement('span');
+        span.textContent = ' ' + typeGlyph(p.t || p.type || '');
+        span.title = p.t || p.type || '';
+        td.appendChild(span);
+      } else {
+        td.textContent = '';
+      }
+      tr.appendChild(td);
+    });
+
+    tbody.appendChild(tr);
+  });
+  tbl.appendChild(tbody);
+  container.appendChild(tbl);
+}
+</script>
+
+<style>
+  table.series-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: .75rem;
+    font-size: .9rem;
+  }
+  .series-table th, .series-table td {
+    border: 1px solid #e3e3e3;
+    padding: .35rem .5rem;
+    text-align: right;
+  }
+  .series-table th:first-child,
+  .series-table td:first-child { text-align: left; }
+  .series-table thead th {
+    background: #fafafa;
+    position: sticky; top: 0; z-index: 1;
+  }
+</style>
+
 </body>
 </html>

@@ -1,0 +1,11 @@
+.legend {
+  display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;
+  font-size: 0.95rem; color: #333;
+}
+.legend-item { display: inline-flex; align-items: center; gap: .35rem; }
+.legend .glyph { font-weight: 700; display: inline-block; width: 1.2rem; text-align: center; }
+
+/* Optional: color accents per type */
+.legend .history { color: #111; }         /* ● */
+.legend .forecast { color: #2563eb; }     /* ▲ */
+.legend .extrapolation { color: #0f766e; }/* ■ */

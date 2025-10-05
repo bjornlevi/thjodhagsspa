@@ -2,12 +2,12 @@
 {% block content %}
 
 <h1>Útgáfuár (hlutfallsár): {{ choices|selectattr('0','equalto',label_key)|map(attribute=1)|list|first }}</h1>
-
 {% include "_picker.html" %}
+
 
 <canvas id="chart" height="120"></canvas>
 <div id="abs-legend" class="mt-2"></div>
-<div id="abs-table"></div>
+<div id="rel-table"></div>
 
 <script>
 const datasets = {{ datasets|tojson }};
@@ -37,7 +37,7 @@ new Chart(ctx, {
         min: xmin - 0.5,
         max: xmax + 0.5,
         ticks: { callback: v => Math.round(v) },
-        title: { display: true, text: "Ár (Almanaksár)" }
+        title: { display: true, text: "Ár frá spá (t=0 er spáár)" }
       },
       y: { title: { display: true, text: "Gildi" } }
     },
@@ -58,13 +58,13 @@ new Chart(ctx, {
 });
 </script>
 <script>
-  // Table: absolute years
+  // Table: relative years (t)
   renderTypeLegend('abs-legend');
   renderDatasetsTable(
-    'abs-table',
+    'rel-table',
     datasets,
     {
-      xLabel: 'Ár (almanaksár)',
+      xLabel: 't frá spá (ár)',
       xFmt: v => Math.round(v),
       valueFmt: v => (v == null ? '' : String(v))
     }

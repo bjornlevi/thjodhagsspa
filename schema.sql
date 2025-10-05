@@ -48,3 +48,7 @@ CREATE TABLE IF NOT EXISTS label_map (
 );
 
 CREATE INDEX IF NOT EXISTS idx_px_obs_year ON px_obs(year);
+-- Back-compat view so existing code that queries spa_obs keeps working
+CREATE VIEW IF NOT EXISTS spa_obs AS
+SELECT pdf_name, label_key, year, value, type
+FROM observations;

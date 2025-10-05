@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container" style="max-width: 1100px;">
+  <h2 class="mt-3">
+    Útgáfuár (hlutfallsár): {{ isl }} — <small class="text-muted">{{ eng }}</small>
+    <small class="ms-3"><a href="/?label={{ label_key }}&n={{ n }}">Sýna almanaksár</a></small>
+  </h2>
+
+  <p class="text-muted">
+    Útgáfur: 
+    {% for val, txt in [('3','3'),('5','5'),('10','10'),('all','Allt')] %}
+      {% if n|lower == val %}
+        <strong>{{ txt }}</strong>
+      {% else %}
+        <a href="{{ url_for('chart_rel', label_key=label_key, n=val) }}">{{ txt }}</a>
+      {% endif %}
+      {% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </p>
+
+  <canvas id="relChart" height="120"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script>
+const datasetsRel = {{ datasets_rel|tojson }};
+const rxMin = {{ rx_min if rx_min is not none else 'null' }};
+const rxMax = {{ rx_max if rx_max is not none else 'null' }};
+
+function absDash(ctx){ const a=ctx.p0?.raw?.t,b=ctx.p1?.raw?.t; return (a==='extrapolation'||b==='extrapolation')?[6,4]:undefined; }
+function absWidth(ctx){ const a=ctx.p0?.raw?.t,b=ctx.p1?.raw?.t; return (a==='forecast'||b==='forecast')?2.5:1.5; }
+function pointStyle(ctx){ const t=ctx.raw?.t; return t==='forecast'?'triangle':(t==='extrapolation'?'rectRot':'circle'); }
+function pointRadius(ctx){ return ctx.raw?.t==='forecast'?5:3; }
+datasetsRel.forEach(ds=>{ ds.pointStyle=pointStyle; ds.pointRadius=pointRadius; });
+
+const cfgRel = {
+  type: 'line',
+  data: { datasets: datasetsRel },
+  options: {
+    parsing: false,
+    animation: false,
+    responsive: true,
+    locale: 'en',
+    scales: {
+      x: {
+        type: 'linear',
+        title: { display: true, text: 'Ár frá spá (t=0 er spáár)' },
+        min: rxMin !== null ? Math.floor(rxMin)-1 : undefined,
+        max: rxMax !== null ? Math.ceil(rxMax)+1 : undefined,
+        ticks: {
+          stepSize: 1,
+          callback: (v)=> String(Math.round(Number(v))),
+          format: { useGrouping: false }
+        }
+      },
+      y: { title: { display: true, text: 'Gildi' } }
+    },
+    plugins: {
+      legend: { position: 'top' },
+      tooltip: {
+        callbacks: {
+          title: (items)=> 'Δár: ' + String(Math.round(Number(items?.[0]?.parsed?.x ?? 0))),
+          label: (ctx)=> {
+            const abs = ctx.raw?.abs_year;
+            return `${ctx.dataset.label}  ár=${abs}  gildi=${ctx.raw?.y}  (${ctx.raw?.t})`;
+          }
+        }
+      }
+    },
+    elements: { line: { borderWidth: 1.5 } }
+  },
+  plugins: [{
+    id:'relSegAttach',
+    beforeDatasetsDraw(chart){
+      chart.config.data.datasets.forEach(ds=>{
+        ds.segment ||= {};
+        ds.segment.borderDash = absDash;
+        ds.segment.borderWidth = absWidth;
+      });
+    }
+  }]
+};
+
+const el = document.getElementById('relChart');
+if (datasetsRel && datasetsRel.length){ new Chart(el, cfgRel); }
+else { el.parentElement.insertAdjacentHTML('beforeend','<p class="text-muted">Engar gögn fundust.</p>'); }
+</script>
+{% endblock %}

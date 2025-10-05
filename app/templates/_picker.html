@@ -1,0 +1,29 @@
+<form method="get" action="{{ url_for('rel_view' if mode=='rel' else 'index') }}" class="picker">
+  <label for="label_key">Velja röð:</label>
+  <select name="label_key" id="label_key" onchange="this.form.submit()">
+    {% for key, text in choices %}
+      <option value="{{ key }}" {{ 'selected' if key == label_key else '' }}>{{ text }}</option>
+    {% endfor %}
+  </select>
+
+  <span style="margin-left:1rem">Útgáfur:
+    {% for k in [3,5,10] %}
+      {% if recent_n == k %}
+        <strong>{{ k }}</strong>
+      {% else %}
+        <a href="?label_key={{ label_key }}&n={{ k }}">{{ k }}</a>
+      {% endif %}
+      {% if not loop.last %} · {% endif %}
+    {% endfor %}
+    · <a href="?label_key={{ label_key }}&n=9999">Allt</a>
+  </span>
+
+  <a style="margin-left:1rem"
+     href="{{ url_for('index' if mode=='rel' else 'rel_view', label_key=label_key, n=recent_n) }}">
+     {{ 'Sýna almanaksár' if mode=='rel' else 'Sýna útgáfuár' }}
+  </a>
+  <a style="margin-left:1rem"
+   href="{{ url_for('revision_view', label_key=label_key, year=(x_max if x_max is not none else '') ) }}">
+   Þróun árs
+</a>
+</form>

@@ -1,0 +1,20 @@
+<form method="get" action="{{ url_for('revision_view') }}" class="picker">
+  <label for="label_key">Velja röð:</label>
+  <select name="label_key" id="label_key" onchange="this.form.submit()">
+    {% for key, text in choices %}
+      <option value="{{ key }}" {{ 'selected' if key == label_key else '' }}>{{ text }}</option>
+    {% endfor %}
+  </select>
+
+  <label for="year" style="margin-left:1rem">Ár:</label>
+  <select name="year" id="year" onchange="this.form.submit()">
+    {% for y in years %}
+      <option value="{{ y }}" {{ 'selected' if y == target_year else '' }}>{{ y }}</option>
+    {% endfor %}
+  </select>
+
+  <span style="margin-left:1rem">
+    <a href="{{ url_for('index', label_key=label_key) }}">Sýna almanaksár</a> ·
+    <a href="{{ url_for('rel_view', label_key=label_key) }}">Sýna útgáfuár</a>
+  </span>
+</form>

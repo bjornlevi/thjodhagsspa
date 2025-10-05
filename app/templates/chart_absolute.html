@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container" style="max-width: 1100px;">
+  <h2 class="mt-3">{{ title }}</h2>
+  <p class="text-muted">
+    X = calendar year. SPA “history/forecast/extrapolation” shown for each vintage.
+    Dashed line = PX actuals (THJ07100).
+  </p>
+  <canvas id="absChart" height="100"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script>
+const spaDatasets = {{ spa_datasets_json|safe }};
+const pxDataset = {{ px_dataset_json|safe }};
+
+const ctx = document.getElementById('absChart').getContext('2d');
+
+// segment color by SPA type (left point)
+const C_HISTORY = 'rgba(52, 152, 219, 1)';   // blue
+const C_FORECAST = 'rgba(231, 76, 60, 1)';   // red
+const C_EXTRAP = 'rgba(46, 204, 113, 1)';    // green
+const segment = {
+  borderColor: ctx => {
+    const d = ctx.p0.raw;
+    if (!d || !d.t) return undefined;
+    if (d.t === 'history') return C_HISTORY;
+    if (d.t === 'forecast') return C_FORECAST;
+    return C_EXTRAP;
+  }
+};
+
+const datasets = spaDatasets.map(d => ({...d, segment}));
+if (pxDataset) {
+  datasets.push({
+    ...pxDataset,
+    borderColor: 'rgba(0,0,0,0.75)',  // black dashed for actuals
+    pointRadius: 0
+  });
+}
+
+new Chart(ctx, {
+  type: 'line',
+  data: { datasets },
+  options: {
+    responsive: true,
+    interaction: { mode: 'nearest', intersect: false },
+    plugins: {
+      legend: { position: 'bottom' },
+      title: { display: false }
+    },
+    scales: {
+      x: {
+        type: 'linear',
+        title: { display: true, text: 'Year' },
+        suggestedMin: {{ x_min }},
+        suggestedMax: {{ x_max }},
+        ticks: { stepSize: 1 }
+      },
+      y: {
+        title: { display: true, text: 'Value' },
+        beginAtZero: false
+      }
+    },
+    elements: { point: { radius: 0 } }
+  }
+});
+</script>
+{% endblock %}

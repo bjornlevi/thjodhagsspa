@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h1>Þróun árs (útgáfur): 
+  {% set label_text = (choices | selectattr('0','equalto',label_key) | map(attribute=1) | list | first) %}
+  {{ label_text }} — ár {{ target_year if target_year is not none else '' }}
+</h1>
+
+{% include "_picker_revision.html" %}
+
+{% if datasets and datasets|length > 0 %}
+<canvas id="chart" height="120"></canvas>
+<div id="abs-legend" class="mt-2"></div>
+<div id="rev-table"></div>
+
+<script>
+const datasets = {{ datasets|tojson }};
+const xmin = {{ x_min if x_min is not none else 'null' }};
+const xmax = {{ x_max if x_max is not none else 'null' }};
+
+const ctx = document.getElementById('chart').getContext('2d');
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    datasets: datasets.map(ds => ({
+      ...ds,
+      parsing: false,
+      pointStyle: (ctx) => {
+        const t = ctx.raw?.t;
+        return t === 'forecast' ? 'triangle' : (t === 'extrapolation' ? 'rect' : 'circle');
+      },
+      radius: 3,
+      hoverRadius: 5,
+      segment: {
+        // optional: show dashed when connecting extrapolated points
+        borderDash: (ctx) => {
+          const a = ctx.p0?.raw?.t, b = ctx.p1?.raw?.t;
+          return (a === 'extrapolation' || b === 'extrapolation') ? [6,4] : [];
+        }
+      }
+    }))
+  },
+  options: {
+    responsive: true,
+    scales: {
+      x: {
+        type: 'linear',
+        title: { display: true, text: "Útgáfuár (spáár)" },
+        ticks: { stepSize: 1, callback: v => Math.round(v), precision: 0 },
+        suggestedMin: (xmin ?? 0) - 0.5,
+        suggestedMax: (xmax ?? 0) + 0.5
+      },
+      y: {
+        title: { display: true, text: "Gildi" }
+      }
+    },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          title: items => {
+            const r = items[0].raw;
+            return `Útgáfuár: ${Math.round(items[0].parsed.x)} (ár: ${r?.abs_year})`;
+          },
+          label: item => {
+            const t = item.raw?.t;
+            const ed = item.raw?.edition || '';
+            const ty = t === 'history' ? 'Saga' : (t === 'forecast' ? 'Spá' : 'Framreikningur');
+            return `${ty} • ${ed}: ${item.raw.y}`;
+          }
+        }
+      }
+    }
+  }
+});
+</script>
+<script>
+  // Table: edition years on x-axis
+  renderTypeLegend('abs-legend');
+  renderDatasetsTable(
+    'rev-table',
+    datasets,
+    {
+      xLabel: 'Útgáfuár (spáár)',
+      xFmt: v => Math.round(v),
+      valueFmt: v => (v == null ? '' : String(v))
+    }
+  );
+</script>  
+{% else %}
+  <p>Engin gögn fundust fyrir valið ár.</p>
+{% endif %}
+
+{% endblock %}
